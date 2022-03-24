@@ -7,8 +7,9 @@ As part of my planning, I researched what chess clubs around the world are doing
 My first port of call was the [St Louis Chess Club](https://saintlouischessclub.org/) (SLCC), based in MO, USA. SLCC is one of the most famous chess clubs in the world, attracting all-star guest lecturers to their [YouTube channel](https://www.youtube.com/c/STLChessClub) such as International Master Eric Rosen and Grandmaster Benjamin Finegold.  
 
 On opening their website, the user is greeted by a large revolving gallery of photos, showcasing news, products and current events. Immediately below are links to various important sections of the website and a short list of upcoming events. Despite the size of the club and the amount of services they offer, the website does not overwhelm the user, and only the most important information is immediately displayed.  
-There is a "contact us" link in the footer of the page, rather than prominently displayed - however, there is a clear CTA to sign up for the club online in the main content. For a larger club, this makes sense as a way to automate the process, but may not be as suitable for my project.  
+There is a "contact us" link in the footer of the page, rather than prominently displayed - however, there is a clear CTA to become a member of the club online in the main content. For a larger club, this makes sense as a way to automate the process - however, it may not be as suitable for my project as Kendal Chess Club handles all memberships and fees manually.  
 The site has a fairly minimalist design with a refined and unintrusive colour scheme of black, white and gold.
 
-![A screenshot of the St Louis Chess Club website's home page](assets/images/SLCC%20Home%20Page.png)
+![A screenshot of the St Louis Chess Club website's home page](assets/images/SLCC%20Home%20Page.png)  
+
 ![A screenshot of the St Louis Chess Club website's home page, scrolled to the bottom](assets/images/SLCC%20Home%20Page%202.png)
