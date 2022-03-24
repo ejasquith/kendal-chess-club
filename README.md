@@ -14,6 +14,10 @@ This site aims to introduce prospective members to the Kendal Chess Club, offeri
 
 ## Strategy Plane
 
+### Stakeholder Interviews  
+
+In order to inform my decisions in the planning stages of this project, I conducted interviews with a number of potential stakeholders and users. These can be found in INTERVIEWS.md
+
 ### Target Audiences
 
 The first stage in planning this project was to identify the stakeholders - those being, the site owner and end users of the site. End users can further be split up into three categories: 
