@@ -10,6 +10,8 @@ On opening their website, the user is greeted by a large revolving gallery of ph
 There is a "contact us" link in the footer of the page, rather than prominently displayed - however, there is a clear CTA to become a member of the club online in the main content. For a larger club, this makes sense as a way to automate the process - however, it may not be as suitable for my project as Kendal Chess Club handles all memberships and fees manually.  
 The site has a fairly minimalist design with a refined and unintrusive colour scheme of black, white and gold.
 
-![A screenshot of the St Louis Chess Club website's home page](assets/images/SLCC%20Home%20Page.png)  
+![A screenshot of the St Louis Chess Club website's home page](assets/images/slcc-home-page.png)  
 
-![A screenshot of the St Louis Chess Club website's home page, scrolled to the bottom](assets/images/SLCC%20Home%20Page%202.png)
+![A screenshot of the St Louis Chess Club website's home page, scrolled to the bottom](assets/images/slcc-home-page-2.png)
+
+![A screenshot of the St Louis Chess Club website's home page, viewed with a mobile device](assets/images/slcc-home-mobile.png)
