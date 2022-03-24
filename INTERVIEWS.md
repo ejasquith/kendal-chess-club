@@ -1,8 +1,10 @@
 # Stakeholder Interviews
 
+During the planning stage of the project, I thought it would be wise to get some insight from real people who would be a potential part of the site's audience, rather than projecting my own ideas of what users may require from the site. The results of these are detailed below.
+
 ## Interviewee 1: Jonathan Rashleigh, client
 
-Jonathan Rashleigh is the owner of the club's current site. I interviewed him to get some insight into his visions, ideas, and goals for the site.  
+Jonathan Rashleigh is the owner of the club's current site and team captain for the club. I interviewed him to get some insight into his visions, ideas, and goals for the site.  
 
 ### As the site owner, what value do you hope to gain from the site? What problems or opportunities do you want it to address?
 

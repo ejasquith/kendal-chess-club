@@ -16,7 +16,7 @@ This site aims to introduce prospective members to the Kendal Chess Club, offeri
 
 ### Stakeholder Interviews  
 
-In order to inform my decisions in the planning stages of this project, I conducted interviews with a number of potential stakeholders and users. These can be found in INTERVIEWS.md
+In order to inform my decisions in the planning stages of this project, I conducted interviews with a number of potential stakeholders and users. These can be found in [INTERVIEWS.md](INTERVIEWS.md)
 
 ### Target Audiences
 
