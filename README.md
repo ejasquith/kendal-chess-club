@@ -50,3 +50,4 @@ The demographic of these users is extremely broad - anyone from 12-70+ can (and 
 - Screenshots in [COMPETITORS.md](COMPETITORS.md) taken from: 
     - [https://saintlouischessclub.org/](https://saintlouischessclub.org/) 
     - [https://www.glcc.org.uk/](https://www.glcc.org.uk/)
+- Special thanks to Jonathan, Fleo, Hana, and Tim for agreeing to be interviewed.
