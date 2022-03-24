@@ -14,19 +14,19 @@ There is a "contact us" link in the footer of the page, rather than prominently 
 
 The site has a fairly minimalist design with a refined and unobtrusive colour scheme of white and black, with gold accents.
 
-| ![A screenshot of the St Louis Chess Club website's home page](assets/images/slcc-home-page.png) |
+| ![A screenshot of the St Louis Chess Club website's home page](assets/images/screenshots/slcc-home-page.png) |
 |:--:|
 | A screenshot of the St Louis Chess Club website's home page |
 
-| ![A screenshot of the St Louis Chess Club website's home page, scrolled to the bottom](assets/images/slcc-home-page-2.png) |
+| ![A screenshot of the St Louis Chess Club website's home page, scrolled to the bottom](assets/images/screenshots/slcc-home-page-2.png) |
 |:--:|
 | A screenshot of the St Louis Chess Club website's home page, scrolled to the bottom |
 
-| ![A screenshot of the St Louis Chess Club website's home page, with nested menus showing on the navbar](assets/images/slcc-home-nav.png) |
+| ![A screenshot of the St Louis Chess Club website's home page, with nested menus showing on the navbar](assets/images/screenshots/slcc-home-nav.png) |
 |:--:|
 | A screenshot of the St Louis Chess Club website's home page, with nested menus showing on the navbar |
 
-| ![A screenshot of the St Louis Chess Club website's home page, viewed with a mobile device](assets/images/slcc-home-mobile.png) |
+| ![A screenshot of the St Louis Chess Club website's home page, viewed with a mobile device](assets/images/screenshots/slcc-home-mobile.png) |
 |:--:|
 | A screenshot of the St Louis Chess Club website's home page, viewed with a mobile device |
 
