@@ -44,3 +44,9 @@ The demographic of these users is extremely broad - anyone from 12-70+ can (and 
 - To allow users to keep up with club news and events.
 - To allow users to contact club organisers quickly and easily.
 - To showcase the club's history and unique offerings.
+
+# Credits
+
+- Screenshots in [COMPETITORS.md](COMPETITORS.md) taken from: 
+    - [https://saintlouischessclub.org/](https://saintlouischessclub.org/) 
+    - [https://www.glcc.org.uk/](https://www.glcc.org.uk/)

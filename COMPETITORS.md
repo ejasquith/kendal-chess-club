@@ -29,3 +29,5 @@ The site has a fairly minimalist design with a refined and unobtrusive colour sc
 | ![A screenshot of the St Louis Chess Club website's home page, viewed with a mobile device](assets/images/slcc-home-mobile.png) |
 |:--:|
 | A screenshot of the St Louis Chess Club website's home page, viewed with a mobile device |
+
+## Greater London Chess Club
