@@ -1,3 +1,5 @@
+/* universal styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,11 +11,43 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Merriweather', serif;
 }
 
 a {
-    color: #0e0e0e;
+    color: inherit;
     text-decoration: none;
+}
+
+/* header and navigation links */
+
+header {
+    padding: 0 10px;
+}
+
+header h1, #menu {
+    line-height: 90px;
+}
+
+header h1 {
+    float: left;
+    font-size: 250%;
+    font-weight: lighter;
+}
+
+#menu {
+    float: right;
+    list-style: none;
+    font-size: 130%;
+}
+
+#menu li {
+    display: inline;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#menu a:hover, .active {
+    border-bottom: 1px solid #0e0e0e;
 }
