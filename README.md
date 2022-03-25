@@ -12,13 +12,11 @@ This site aims to introduce prospective members to the Kendal Chess Club, offeri
 
 # Planning Stage
 
-## Strategy Plane
-
-### Stakeholder Interviews  
+## Stakeholder Interviews  
 
 In order to inform my decisions in the planning stages of this project, I conducted interviews with a number of potential stakeholders and users. These can be found in [INTERVIEWS.md](docs/INTERVIEWS.md)
 
-### Target Audiences
+## Target Audiences
 
 The first stage in planning this project was to identify the stakeholders - those being, the site owner and end users of the site. End users can further be split up into three categories: 
 - Users who do not play chess but are interested in starting;
@@ -27,7 +25,7 @@ The first stage in planning this project was to identify the stakeholders - thos
 
 The demographic of these users is extremely broad - anyone from 12-70+ can (and does) attend the club, and members are a mix of men and women. Therefore, the site has to have wide appeal.  
 
-### User Stories
+## User Stories
 
 - As someone new to chess, I want to learn the basic rules of the game. 
 - As a prospective member, I want to find out when and where the club meets.
@@ -38,14 +36,24 @@ The demographic of these users is extremely broad - anyone from 12-70+ can (and 
 - As a user, I want to be able to find relevant information quickly and without hassle. 
 - As a user, I want to learn about the history of the club.   
 
-### Site Aims
+## Site Aims
 
 - To provide information on the club and its meetings.
 - To allow users to keep up with club news and events.
 - To allow users to contact club organisers quickly and easily.
+- To educate new players on the rules of chess.
 - To showcase the club's history and unique offerings.
 
-### Wireframes
+## How This Will Be Achieved
+
+- The home page will provide a brief introduction to the club and its meeting times and venue.
+- There will be a dedicated news & events page, detailing news from the club and the wider chess world.
+- There will be a contact form page where users can provide personal details and a message for the administrators.
+    - There will also be details on the club managements' contact details.
+- There will be a "how to play" page, which will include the basic rules of chess and other information for beginners.
+- There will be a dedicated about us page, which will expand on the introduction on the home page and include some of the club's history.
+
+## Wireframes
 
 In order to organise my thoughts and provide a basic design scheme to work with, I created a number of wireframe diagrams.  
 
