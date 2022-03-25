@@ -81,6 +81,6 @@ Headings will use the Merriweather font, while paragraph text will use Merriweat
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
     - [https://saintlouischessclub.org/](https://saintlouischessclub.org/) 
     - [https://www.glcc.org.uk/](https://www.glcc.org.uk/)
-- Special thanks to Jonathan, Fleo, Hana, and Tim for agreeing to be interviewed.
 - Colour palette generated with [Coolors](https://coolors.co/?home)
 - Fonts sourced from [Google Fonts](fonts.google.com)
+- Special thanks to Jonathan, Fleo, Hana, and Tim for agreeing to be interviewed.
