@@ -70,6 +70,11 @@ I then ran these colours through [Contrast Grid](https://contrast-grid.eightshap
 ![A colour palette consisting of white, black, and medium browns](docs/images/colour-palette.png)
 ![A grid showing the contrast between the above colours](docs/images/colour-contrast.png)
 
+## Fonts
+
+Taking inspiration from the [St. Louis Chess Club](https://saintlouischessclub.org/), I have decided to use a mixture of serif and sans-serif fonts in my design.  
+Headings will use the Merriweather font, while paragraph text will use Merriweather Sans. These two typefaces have been specifically designed to complement each other well.
+
 # Credits
 
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
@@ -77,3 +82,4 @@ I then ran these colours through [Contrast Grid](https://contrast-grid.eightshap
     - [https://www.glcc.org.uk/](https://www.glcc.org.uk/)
 - Special thanks to Jonathan, Fleo, Hana, and Tim for agreeing to be interviewed.
 - Colour palette generated with [Coolors](https://coolors.co/?home)
+- Fonts sourced from [Google Fonts](fonts.google.com)
