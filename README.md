@@ -64,7 +64,7 @@ In order to organise my thoughts and provide a basic design scheme to work with,
 
 ## Colour Palette
 
-I took inspiration from the colours of a classic wooden chess set and generated a colour palette that will be used throughout the site for consistency. It is intended to be elegant, understated and modern. I decided to use the off-white #fafafa to make the site's appearance less harsh.  
+I took inspiration from the colours of a classic wooden chess set and generated a colour palette that will be used throughout the site for consistency. It is intended to be elegant, understated and modern. I decided to use the off-white #fafafa and off-black #0e0e0e to make the site's appearance less harsh.  
 I then ran these colours through [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23fafafa%0D%0A%23c48d5a%0D%0A%23875a31%0D%0A%23000000&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) to ensure that the site has sufficient contrast for accessibility.
 
 ![A colour palette consisting of white, black, and medium browns](docs/images/colour-palette.png)
