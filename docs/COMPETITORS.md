@@ -14,19 +14,19 @@ There is a "contact us" link in the footer of the page, rather than prominently 
 
 The site has a fairly minimalist design with a refined and unobtrusive colour scheme of white and black, with gold accents. It uses a mixture of serif and sans serif fonts to portray a picture of modernity and tradition simultaneously.  
 
-| ![A screenshot of the St Louis Chess Club website's home page](assets/images/screenshots/slcc-home-page.png) |
+| ![A screenshot of the St Louis Chess Club website's home page](screenshots/slcc-home-page.png) |
 |:--:|
 | A screenshot of the St Louis Chess Club website's home page |
 
-| ![A screenshot of the St Louis Chess Club website's home page, scrolled to the bottom](assets/images/screenshots/slcc-home-page-2.png) |
+| ![A screenshot of the St Louis Chess Club website's home page, scrolled to the bottom](screenshots/slcc-home-page-2.png) |
 |:--:|
 | A screenshot of the St Louis Chess Club website's home page, scrolled to the bottom |
 
-| ![A screenshot of the St Louis Chess Club website's home page, with nested menus showing on the navbar](assets/images/screenshots/slcc-home-nav.png) |
+| ![A screenshot of the St Louis Chess Club website's home page, with nested menus showing on the navbar](screenshots/slcc-home-nav.png) |
 |:--:|
 | A screenshot of the St Louis Chess Club website's home page, with nested menus showing on the navbar |
 
-| ![A screenshot of the St Louis Chess Club website's home page, viewed with a mobile device](assets/images/screenshots/slcc-home-mobile.png) |
+| ![A screenshot of the St Louis Chess Club website's home page, viewed with a mobile device](screenshots/slcc-home-mobile.png) |
 |:--:|
 | A screenshot of the St Louis Chess Club website's home page, viewed with a mobile device |
 
@@ -42,14 +42,14 @@ The colour scheme used is a simple white black and blue, which is simple but uni
 
 This site is very much a what-not-to-do guide that looks outdated and unappealing.  
 
-| ![A screenshot of the Greater London Chess Club website's home page](assets/images/screenshots/glcc-home-page.png) |
+| ![A screenshot of the Greater London Chess Club website's home page](screenshots/glcc-home-page.png) |
 |:--:|
 | A screenshot of the Greater London Chess Club website's home page |
 
-| ![A screenshot of the Greater London Chess Club website's home page, showing poorly aligned images](assets/images/screenshots/glcc-home-page-2.png) |
+| ![A screenshot of the Greater London Chess Club website's home page, showing poorly aligned images](screenshots/glcc-home-page-2.png) |
 |:--:|
 | A screenshot of the Greater London Chess Club website's home page, showing poorly aligned images |
 
-| ![A screenshot of the Greater London Chess Club website's home page, viewed with a mobile device](assets/images/screenshots/glcc-home-page-mobile.png) |
+| ![A screenshot of the Greater London Chess Club website's home page, viewed with a mobile device](screenshots/glcc-home-page-mobile.png) |
 |:--:|
 | A screenshot of the Greater London Chess Club website's home page, viewed with a mobile device |

@@ -16,7 +16,7 @@ This site aims to introduce prospective members to the Kendal Chess Club, offeri
 
 ### Stakeholder Interviews  
 
-In order to inform my decisions in the planning stages of this project, I conducted interviews with a number of potential stakeholders and users. These can be found in [INTERVIEWS.md](INTERVIEWS.md)
+In order to inform my decisions in the planning stages of this project, I conducted interviews with a number of potential stakeholders and users. These can be found in [INTERVIEWS.md](docs/INTERVIEWS.md)
 
 ### Target Audiences
 
@@ -47,7 +47,7 @@ The demographic of these users is extremely broad - anyone from 12-70+ can (and 
 
 # Credits
 
-- Screenshots in [COMPETITORS.md](COMPETITORS.md) taken from: 
+- Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
     - [https://saintlouischessclub.org/](https://saintlouischessclub.org/) 
     - [https://www.glcc.org.uk/](https://www.glcc.org.uk/)
 - Special thanks to Jonathan, Fleo, Hana, and Tim for agreeing to be interviewed.
