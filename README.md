@@ -57,10 +57,11 @@ The demographic of these users is extremely broad - anyone from 12-70+ can (and 
 
 In order to organise my thoughts and provide a basic design scheme to work with, I created a number of wireframe diagrams.  
 
-- Mobile wireframes
-    - [Home Page](docs/images/wireframes/homepage-mobile.png)
-- Desktop wireframes
-    - [Home Page](docs/images/wireframes/homepage-desktop.png)
+### Mobile wireframes
+![Home Page wireframe for mobile](docs/images/wireframes/homepage-mobile.png)
+
+### Desktop wireframes
+![Home Page wireframe for desktop](docs/images/wireframes/homepage-desktop.png)
 
 ## Colour Palette
 
