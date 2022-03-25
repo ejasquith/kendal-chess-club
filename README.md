@@ -45,6 +45,15 @@ The demographic of these users is extremely broad - anyone from 12-70+ can (and 
 - To allow users to contact club organisers quickly and easily.
 - To showcase the club's history and unique offerings.
 
+### Wireframes
+
+In order to organise my thoughts and provide a basic design scheme to work with, I created a number of wireframe diagrams.  
+
+- Mobile wireframes
+    - [Home Page](docs/wireframes/homepage-mobile.png)
+- Desktop wireframes
+    - [Home Page](docs/wireframes/homepage-desktop.png)
+
 # Credits
 
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
