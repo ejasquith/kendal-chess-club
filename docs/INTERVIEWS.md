@@ -69,3 +69,15 @@ Hana does not play chess but has expressed interest in taking up the game in the
 ## Interviewee 4: Tim Lounds, end user
 
 Tim is an active member of the Kendal Chess Club, attending weekly as well as representing the club in county tournaments. I interviewed him to get an idea of what a member would expect from a club they are a part of, and what features would be important in that context.
+
+### As an active member of the club, do you use the club's current website?
+
+> [answer]
+
+### What features, content, or information do/would you find helpful as a member?
+
+> [answer]
+
+### Would you rather keep up with general chess world news through your club's site or other more established sources?
+
+> [answer]
