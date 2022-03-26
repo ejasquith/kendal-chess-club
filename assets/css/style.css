@@ -167,3 +167,8 @@ footer p {
     list-style: none;
     margin-right: 50px;
 }
+
+/* ensures footer content is properly centered by not adding margin to the last element */
+#footer-links li:last-of-type {
+    margin-right: 0px;
+}
