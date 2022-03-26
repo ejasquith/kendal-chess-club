@@ -130,3 +130,16 @@ header h1 {
 #meeting-info h2 {
     margin-bottom: 10px;
 }
+
+/* bottom image */
+
+#bottom-image {
+    clear: both;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#bottom-image img {
+    width: 100%;
+}
