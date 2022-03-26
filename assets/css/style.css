@@ -118,3 +118,15 @@ header h1 {
 #about-us h2 {
     margin-bottom: 10px;
 }
+
+#meeting-info {
+    width: 40%;
+    float: right;
+    margin: 50px 5% 0 2.5%;
+
+    font-size: 115%;
+}
+
+#meeting-info h2 {
+    margin-bottom: 10px;
+}
