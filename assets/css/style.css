@@ -143,3 +143,27 @@ header h1 {
 #bottom-image img {
     width: 100%;
 }
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+}
+
+footer p {
+    display: inline;
+    margin-right: 50px;
+}
+
+#footer-links {
+    display: inline;
+}
+
+#footer-links li {
+    display: inline;
+    list-style: none;
+    margin-right: 50px;
+}
