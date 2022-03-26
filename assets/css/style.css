@@ -104,3 +104,17 @@ header h1 {
 #main-content a:hover {
     color: #c48d5a;
 }
+
+/* about us */
+
+#about-us {
+    width: 40%;
+    float: left;
+    margin: 50px 2.5% 0 5%;
+
+    font-size: 115%;
+}
+
+#about-us h2 {
+    margin-bottom: 10px;
+}
