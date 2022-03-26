@@ -93,3 +93,14 @@ header h1 {
     left: 5%;
     bottom: 10%;
 }
+
+/* main content */
+
+#main-content a {
+    font-weight: bold;
+    color: #875a31;
+    transition: color 0.2s;
+}
+#main-content a:hover {
+    color: #c48d5a;
+}
