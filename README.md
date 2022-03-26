@@ -83,4 +83,5 @@ Headings will use the Merriweather font, while paragraph text will use Merriweat
     - [https://www.glcc.org.uk/](https://www.glcc.org.uk/)
 - Colour palette generated with [Coolors](https://coolors.co/?home)
 - Fonts sourced from [Google Fonts](https://fonts.google.com/)
+- Icons from [Font Awesome](https://fontawesome.com/)
 - Special thanks to Jonathan, Fleo, Hana, and Tim for agreeing to be interviewed.
