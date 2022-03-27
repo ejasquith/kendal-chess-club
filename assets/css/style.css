@@ -153,6 +153,10 @@ footer {
     text-align: center;
 }
 
+footer a {
+    border-bottom: 1px solid #0e0e0e;
+}
+
 footer p {
     display: inline;
     margin-right: 50px;
