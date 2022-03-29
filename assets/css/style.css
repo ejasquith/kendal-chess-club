@@ -172,7 +172,8 @@ footer p {
     margin-right: 50px;
 }
 
-/* ensures footer content is properly centered by not adding margin to the last element */
+/* ensures footer content is properly centered by removing margin from the last element 
+   used last-of-type:0 rather than first-of-type:50 for scalability - works regardless of how many links are included */
 #footer-links li:last-of-type {
-    margin-right: 0px;
+    margin-right: 0;
 }
