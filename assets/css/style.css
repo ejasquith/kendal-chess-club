@@ -105,9 +105,9 @@ header h1 {
     color: #c48d5a;
 }
 
-/* about us */
+/* style for left & right blocks of text */
 
-#about-us {
+.left-paragraph {
     width: 40%;
     float: left;
     margin: 50px 2.5% 0 5%;
@@ -115,11 +115,7 @@ header h1 {
     font-size: 115%;
 }
 
-#about-us h2 {
-    margin-bottom: 10px;
-}
-
-#meeting-info {
+.right-paragraph {
     width: 40%;
     float: right;
     margin: 50px 5% 0 2.5%;
@@ -127,7 +123,7 @@ header h1 {
     font-size: 115%;
 }
 
-#meeting-info h2 {
+.left-paragraph h2, .right-paragraph h2 {
     margin-bottom: 10px;
 }
 
