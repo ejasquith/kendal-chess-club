@@ -146,10 +146,9 @@ header h1 {
 /* article previews */
 
 .news-article {
-    width: 60%;
+    width: 50%;
     min-height: 100px;
     margin: 0 auto 50px auto;
-    padding: 5px;
     border: 1px solid #0e0e0e;
 }
 
@@ -161,11 +160,14 @@ header h1 {
 
 .news-article img {
     float: left;
+    width: 40%;
 }
 
 .news-article .article-info {
     float: right;
-    width: 80%;
+    box-sizing: border-box;
+    width: 60%;
+    padding: 20px;
 }
 
 /* footer */
