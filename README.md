@@ -53,6 +53,12 @@ The demographic of these users is extremely broad - anyone from 12-70+ can (and 
 - There will be a "how to play" page, which will include the basic rules of chess and other information for beginners.
 - There will be a dedicated about us page, which will expand on the introduction on the home page and include some of the club's history.
 
+## Out-of-Scope Features
+
+There are a number of features that would ideally be added to the site but at present are out of scope, either due to knowledge gaps or time restrictions.
+
+In particular, the implementation of a blog or news feed (and an admin login to manage the feed) - this is a big part of the site owner's goals for the site, but without knowledge of backend languages and frameworks (eg. Python and Django), this is currently impossible. However, I can simulate a news feed by creating static content and pages for the purposes of this project.
+
 ## Wireframes
 
 In order to organise my thoughts and provide a basic design scheme to work with, I created a number of wireframe diagrams.  
