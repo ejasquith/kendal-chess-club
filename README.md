@@ -82,6 +82,12 @@ I then ran these colours through [Contrast Grid](https://contrast-grid.eightshap
 Taking inspiration from the [St. Louis Chess Club](https://saintlouischessclub.org/), I have decided to use a mixture of serif and sans-serif fonts in my design.  
 Headings will use the Merriweather font, while paragraph text will use Merriweather Sans. These two typefaces have been specifically designed to complement each other well.
 
+# Development Stage
+
+## Deviations from Planning
+
+- After many hours of research, I decided to scrap the idea of a dedicated "about us" page. A lot of the history of the club is unfortunately completely lost, and there simply wasn't enough information to fill a whole page - instead, I expanded on the about section on the home page slightly.
+
 # Credits
 
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
