@@ -140,6 +140,16 @@ header h1 {
     width: 100%;
 }
 
+/* news page */
+
+/* article previews */
+
+.news-article {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #0e0e0e;
+}
+
 /* footer */
 
 footer {
