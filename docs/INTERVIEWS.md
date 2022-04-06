@@ -4,23 +4,28 @@ During the planning stage of the project, I thought it would be wise to get some
 
 ## Interviewee 1: Jonathan Rashleigh, client
 
-Jonathan Rashleigh is the owner of the club's current site and team captain for the club. I interviewed him to get some insight into his visions, ideas, and goals for the site.  
+Jonathan Rashleigh is the owner of the club's current site and team captain for the club. I posed a few questions to him to get some insight into his visions, ideas, and goals for the site, those being:   
 
-### As the site owner, what value do you hope to gain from the site? What problems or opportunities do you want it to address?
+- As the site owner, what value do you hope to gain from the site? What problems or opportunities do you want it to address?
 
-> [answer]
+- What features and content do you think the site should include to include to address those?
 
-### What features and content do you think the site should include to include to address those?
+- Of those, which do you feel are the most important?
 
-> [answer]
+- What do you expect the primary demographic of site users to be?
 
-### Of those, which do you feel are the most important?
-
-> [answer]
-
-### What do you expect the primary demographic of site users to be?
-
-> [answer]
+> I want the site to ensure that Kendal Chess Club is visible to as many people in the locality as possible and that the site shows up high on all internet searches remotely related to chess in South Cumbria.   
+>
+> The main focus is therefore on trying to attract new members - both by the site being accessible and the site content selling the club as a friendly and fun place to play chess.   
+>
+> The content should therefore be factual but also light hearted reinforcing the fun of playing and being a club member. 
+>
+> Most importantly the site needs to be constantly kept fresh with up to date news, comments etc.  This is difficult with so little club activity to report on at present but must remain the aim.   
+>
+> The site also needs to be marketed harder to existing club members with encouragement for them to contribute content.  There needs to be synergy with the Cumbria Chess Association website maintained by Dave Shaw such that duplication of content is minimised but with the Kendal site being more personal, detailed and lighthearted  take on the matches played etc and the source of information on internal tournaments etc.   
+>
+> We perhaps need to encourage use of a blog or a better use of the nascent Facebook page which has not yet been developed effectively to supplement the website content.
+The demographic for potential site users is potentially very wide anyone aged between 10 and 100 with no restrictions imposed by age, gender, ethnicity, disability etc.  The more we can move the demographic away from the current preponderance of aging Anglo-Saxon white males the better - although we of course want to encourage them as well  and we have to accept the demographic reality of the overall Cumbrian population. We do not want to attract younger children unless and until we acquire new adult members who are prepared to put considerable effort into encouraging junior chess and providing a proper framework for doing that.
 
 ## Interviewee 2: Fleoren, end user
 
