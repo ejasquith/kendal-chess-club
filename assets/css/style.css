@@ -211,6 +211,7 @@ header h1 {
     display: block;
     padding: 30px 30px 0 30px;
     margin: 0 auto;
+    border: none;
 }
 
 /* footer */
