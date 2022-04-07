@@ -95,6 +95,7 @@ header h1 {
 
 #main-content {
     padding-top: 50px;
+    font-size: 115%;
 }
 
 #main-content a {
@@ -112,16 +113,12 @@ header h1 {
     width: 40%;
     float: left;
     margin: 0 2.5% 0 5%;
-
-    font-size: 115%;
 }
 
 .right-paragraph {
     width: 40%;
     float: right;
     margin: 0 5% 0 2.5%;
-
-    font-size: 115%;
 }
 
 .left-paragraph h2, .right-paragraph h2 {
@@ -179,7 +176,6 @@ header h1 {
 .news-preview-title {
     min-height: 50px;
     text-overflow: ellipsis;
-    /* line-height: 50px; */
 }
 
 .news-preview-description-container {
@@ -201,11 +197,14 @@ header h1 {
 /* article page */
 
 .news-article {
-    padding: 0 30px;
+    padding: 0 30px 30px 0;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .news-article h1 {
     padding-bottom: 30px;
+    font-size: 175%;
 }
 
 /* footer */
