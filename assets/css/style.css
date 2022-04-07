@@ -147,7 +147,7 @@ header h1 {
 
 .news-article {
     width: 50%;
-    min-height: 100px;
+    height: 300px;
     margin: 0 auto 50px auto;
     border: 1px solid #0e0e0e;
 }
@@ -160,13 +160,16 @@ header h1 {
 
 .news-article img {
     float: left;
-    width: 40%;
+    /* enforces square image without stretching */
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
 }
 
 .news-article .article-info {
     float: right;
     box-sizing: border-box;
-    width: 60%;
+    width: calc(100% - 300px);
     padding: 20px;
 }
 
