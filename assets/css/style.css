@@ -222,10 +222,6 @@ footer {
     text-align: center;
 }
 
-footer a {
-    border-bottom: 1px solid #0e0e0e;
-}
-
 footer p {
     display: inline;
     margin-right: 50px;
@@ -239,6 +235,10 @@ footer p {
     display: inline;
     list-style: none;
     margin-right: 50px;
+}
+
+#footer-links i {
+    font-size: 150%;
 }
 
 /* ensures footer content is properly centered by removing margin from the last element 
