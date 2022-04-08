@@ -191,6 +191,33 @@ header h1 {
     border: none;
 }
 
+/* contact page */
+
+#contact-form {
+    padding: 0 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-group {
+    /* height: 25px;
+    line-height: 25px; */
+    clear: both;
+    margin: 10px 0;
+}
+
+.short-text-input {
+    border: 1px solid #0e0e0e;
+    border-radius: 4px;
+    height: 25px;
+    width: 25%;
+    float: right;
+}
+
+#contact-form textarea {
+    display: block;
+}
+
 /* footer */
 
 footer {
