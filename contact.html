@@ -43,7 +43,21 @@
     </section>
 
     <section id="main-content">
-        
+        <form id="contact-form" method="GET" action="form-feedback.html">
+            <h2>Get in Touch!</h2>
+
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="message">Enter your message here</label>
+            <textarea rows="4" cols="50" id="message" name="message"></textarea>
+
+            <label for="subscribe">Do you want to receive updates about the club via email?</label>
+            <input type="checkbox" name="subscribe" id="subscribe">
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
     <footer>
