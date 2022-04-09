@@ -193,20 +193,23 @@ header h1 {
 
 /* contact page */
 
-#contact-form {
-    padding: 0 20px;
-    width: 60%;
-    margin: 0 auto;
+#contact-form-container {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/* .form-group {
-    /* height: 25px;
-    line-height: 25px; 
-    clear: both;
-    margin: 10px 0;
-} */
+#contact-form {
+    /* enforces width to match contents */
+    display: inline-block;
+    padding: 0 20px;
+    text-align: left;
+}
 
-#contact-form * {
+#contact-form h2 {
+    font-size: 175%;
+}
+
+#contact-form h2, #contact-form input, #contact-form textarea {
     margin: 10px 0;
 }
 
@@ -214,12 +217,14 @@ header h1 {
     border: 1px solid #0e0e0e;
     border-radius: 4px;
     display: block;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    padding: 10px;
 }
 
 .short-text-input {
     height: 25px;
-    width: 25%;
-    /* float: right; */
 }
 
 #contact-form textarea {
@@ -234,13 +239,18 @@ header h1 {
 #contact-form button {
     width: 100px;
     height: 50px;
+    display: block;
+    margin: 10px auto 0 auto;
+
     background-color: #875a31;
     color: #fafafa;
     font-family: inherit;
     font-size: inherit;
     border: 1px solid #0e0e0e;
     border-radius: 4px;
+
     transition: color 0.2s, background-color 0.2s;
+    cursor: pointer;
 }
 
 #contact-form button:hover {
