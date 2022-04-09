@@ -199,23 +199,53 @@ header h1 {
     margin: 0 auto;
 }
 
-.form-group {
+/* .form-group {
     /* height: 25px;
-    line-height: 25px; */
+    line-height: 25px; 
     clear: both;
+    margin: 10px 0;
+} */
+
+#contact-form * {
     margin: 10px 0;
 }
 
-.short-text-input {
+.input {
     border: 1px solid #0e0e0e;
     border-radius: 4px;
+    display: block;
+}
+
+.short-text-input {
     height: 25px;
     width: 25%;
-    float: right;
+    /* float: right; */
 }
 
 #contact-form textarea {
     display: block;
+    resize: none;
+}
+
+#contact-form input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+#contact-form button {
+    width: 100px;
+    height: 50px;
+    background-color: #875a31;
+    color: #fafafa;
+    font-family: inherit;
+    font-size: inherit;
+    border: 1px solid #0e0e0e;
+    border-radius: 4px;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+#contact-form button:hover {
+    color: #0e0e0e;
+    background-color: #fafafa;
 }
 
 /* footer */
