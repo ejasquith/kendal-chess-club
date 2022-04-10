@@ -221,6 +221,7 @@ main a:hover {
     font-size: inherit;
     color: inherit;
     padding: 10px;
+    width: 100%;
 }
 
 .short-text-input {
