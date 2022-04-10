@@ -272,6 +272,13 @@ main a:hover {
     font-size: 175%;
 }
 
+/* find us page */
+
+.map {
+    display: block;
+    margin: 0 auto;
+}
+
 /* footer */
 
 footer {
