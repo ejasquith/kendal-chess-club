@@ -274,7 +274,7 @@ main a:hover {
 
 /* find us page */
 
-.map {
+#map {
     display: block;
     margin: 0 auto;
 }
