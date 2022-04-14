@@ -279,6 +279,12 @@ main a:hover {
     margin: 0 auto;
 }
 
+#find-us-info {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
 /* footer */
 
 footer {
