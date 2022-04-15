@@ -279,6 +279,8 @@ main a:hover {
 #map {
     display: block;
     margin: 0 auto;
+    height: 500px;
+    width: 50%;
 }
 
 #find-us-info {
