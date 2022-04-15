@@ -74,6 +74,8 @@ header h1 {
     height: 600px;
     background: url("../images/hero-image.jpg") no-repeat center center;
     background-size: cover;
+    /* creates parallax effect */
+    background-attachment: fixed;
 }
 
 #hero-cover-text-container {
