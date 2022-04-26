@@ -143,6 +143,10 @@ main {
     padding-top: 20px;
 }
 
+#bottom-image {
+    display: none;
+}
+
 /* footer */
 
 footer {
@@ -199,6 +203,14 @@ footer {
     #nav-menu a:hover, .active {
         border-bottom: 1px solid #0e0e0e;
     }
+
+    #footer-links {
+        display: inline;
+    }
+    footer p {
+        display: inline;
+        margin-right: 50px;
+    }
 }
 
 @media screen and (min-width: 1100px)
@@ -207,11 +219,25 @@ footer {
         flex-direction: row;
         gap: 40px;
     }
+
+    #bottom-image {
+        display: block;
+        width: 750px;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+    
+    #bottom-image img {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1300px)
 {
     #hero-image, #hero-image-container {
         height: 600px;
+    }
+    #hero-image {
+        background-attachment: fixed;
     }
 }
