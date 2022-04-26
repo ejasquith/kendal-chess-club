@@ -113,8 +113,9 @@ main {
 
 #hero-cover-text {
     color: var(--off-white);
-    font-size: 240%;
     position: absolute;
     left: 5%;
     bottom: 5%;
+    font-size: 400%;
+    display: none;
 }
