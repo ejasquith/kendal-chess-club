@@ -223,8 +223,7 @@ footer {
     #bottom-image {
         display: block;
         width: 750px;
-        margin: 0 auto;
-        padding-top: 100px;
+        margin: 30px auto;
     }
     
     #bottom-image img {
