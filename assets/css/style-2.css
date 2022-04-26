@@ -48,12 +48,23 @@ nav {
     height: 100%;
     float: right;
 }
+.navbar {
+    padding: 0;
+}
+
+.nbs-nav-link {
+    text-decoration: none;
+}
 
 .navbar-toggler {
     font-size: 200%;
 }
 .navbar-toggler:focus {
     box-shadow: none;
+}
+
+#nav-menu {
+    display: none;
 }
 
 #collapse-menu {
@@ -88,7 +99,7 @@ nav {
 }
 
 #collapse-menu li a {
-    text-decoration: none;
+    /* text-decoration: none; */
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -160,4 +171,30 @@ footer {
    used last-of-type:0 rather than first-of-type:50 for scalability - works regardless of how many links are included */
 #footer-links li:last-of-type {
     margin-right: 0;
+}
+
+/* media query for small-medium screens */
+@media screen and (min-width: 780px)
+{
+    /* displays full navbar instead of hamburger */
+   .navbar-toggler {
+        display: none;
+    }
+    #nav-menu {
+        display: block;
+    }
+    #nav-menu {
+        float: right;
+        list-style: none;
+    }    
+    #nav-menu li {
+        display: inline;
+        list-style: none;
+        margin-right: 30px;
+        font-size: 120%;
+        line-height: var(--header-height);
+    }    
+    #nav-menu a:hover, .active {
+        border-bottom: 1px solid #0e0e0e;
+    }
 }
