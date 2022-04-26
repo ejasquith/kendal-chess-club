@@ -224,8 +224,7 @@ footer {
         display: block;
         width: 750px;
         margin: 30px auto;
-    }
-    
+    }    
     #bottom-image img {
         width: 100%;
     }
@@ -238,5 +237,8 @@ footer {
     }
     #hero-image {
         background-attachment: fixed;
+    }
+    #hero-cover-text {
+        display: block;
     }
 }
