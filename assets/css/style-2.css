@@ -21,6 +21,12 @@ a {
     color: inherit;
 }
 
+.flex-container {
+    display: flex;
+    /* for mobile-first: will display as if no flexbox */
+    flex-direction: column;
+}
+
 header {
     width: 100%;
     height: var(--header-height);
