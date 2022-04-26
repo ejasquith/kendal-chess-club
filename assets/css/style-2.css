@@ -176,6 +176,10 @@ footer {
 /* media query for small-medium screens */
 @media screen and (min-width: 780px)
 {
+    main {
+        padding-top: 40px;
+    }
+
     /* displays full navbar instead of hamburger */
    .navbar-toggler {
         display: none;
@@ -194,5 +198,20 @@ footer {
     }    
     #nav-menu a:hover, .active {
         border-bottom: 1px solid #0e0e0e;
+    }
+}
+
+@media screen and (min-width: 1100px)
+{
+    .flex-container {
+        flex-direction: row;
+        gap: 40px;
+    }
+}
+
+@media screen and (min-width: 1300px)
+{
+    #hero-image, #hero-image-container {
+        height: 600px;
     }
 }
