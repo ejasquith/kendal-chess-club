@@ -6,6 +6,7 @@
     --off-white: #fafafa;
     --off-black: #0e0e0e;
     --medium-dark-grey: #2b2b2b;
+    --light-grey: #ccc;
 }
 
 body {
@@ -34,7 +35,7 @@ header {
     top: 0;
     background-color: var(--off-white);
     padding: 0 20px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--light-grey);
     z-index: 1;
 }
 
@@ -128,4 +129,34 @@ main {
     width: 80%;
     margin: 0 auto;
     padding-top: 20px;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 75px;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 1px solid var(--light-grey);
+}
+
+#footer-links {
+    padding: 0;
+}
+
+#footer-links li {
+    display: inline;
+    list-style: none;
+    margin-right: 50px;
+}
+
+#footer-links i {
+    font-size: 150%;
+}
+
+/* ensures footer content is properly centered by removing margin from the last element 
+   used last-of-type:0 rather than first-of-type:50 for scalability - works regardless of how many links are included */
+#footer-links li:last-of-type {
+    margin-right: 0;
 }
