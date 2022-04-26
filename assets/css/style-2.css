@@ -182,11 +182,9 @@ footer {
     }
     #nav-menu {
         display: block;
-    }
-    #nav-menu {
         float: right;
         list-style: none;
-    }    
+    }   
     #nav-menu li {
         display: inline;
         list-style: none;
