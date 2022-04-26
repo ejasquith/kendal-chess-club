@@ -62,6 +62,7 @@ nav {
     color: var(--off-white);
     position: fixed;
     top: var(--header-height);
+    z-index: 1;
 }
 
 #collapse-menu ul {
