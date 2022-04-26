@@ -1,5 +1,22 @@
 :root {
-    --header-height: 50px;
+    --header-height: 75px;
+    --body-font: 'Merriweather Sans', sans-serif;
+    --heading-font: 'Merriweather', serif;
+
+    --off-white: #fafafa;
+    --off-black: #0e0e0e;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font);
+}
+
+a {
+    color: inherit;
 }
 
 header {
@@ -16,14 +33,34 @@ header h1 {
     float: left;
 }
 .navbar-toggler {
+    font-size: 200%;
     float: right;
     display: inline;
 }
-#navbarToggleExternalContent {
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#collapse-menu {
     width: 100%;
-    background-color: blue;
+    background-color: var(--off-black);
+    color: var(--off-white);
     position: fixed;
     top: var(--header-height);
+    box-shadow: none;
+}
+
+#collapse-menu ul {
+    padding-left: 0;
+}
+
+#collapse-menu li {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+    text-align: center;
 }
 
 main {
