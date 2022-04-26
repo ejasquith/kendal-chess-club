@@ -38,13 +38,11 @@ header h1 {
 
 nav {
     height: 100%;
+    float: right;
 }
 
 .navbar-toggler {
     font-size: 200%;
-    float: right;
-    display: inline;
-    margin: 0 auto;
 }
 .navbar-toggler:focus {
     box-shadow: none;
@@ -74,6 +72,10 @@ nav {
 
 #collapse-menu li:last-of-type {
     border: none;
+}
+
+#collapse-menu li:hover {
+    background-color: var(--medium-dark-grey);
 }
 
 #collapse-menu li a {
