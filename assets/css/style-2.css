@@ -1,0 +1,31 @@
+:root {
+    --header-height: 50px;
+}
+
+header {
+    width: 100%;
+    height: var(--header-height);
+    position: fixed;
+    top: 0;
+    background-color: red;
+    padding: 0 20px;
+}
+
+header h1 {
+    line-height: var(--header-height);
+    float: left;
+}
+.navbar-toggler {
+    float: right;
+    display: inline;
+}
+#navbarToggleExternalContent {
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    top: var(--header-height);
+}
+
+main {
+    margin-top: var(--header-height);
+}
