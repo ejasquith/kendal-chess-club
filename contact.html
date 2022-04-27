@@ -75,8 +75,12 @@
                 <label for="message">Enter your message here</label>
                 <textarea rows="8" id="message" name="message" class="input"></textarea>
 
-                <label for="subscribe">Do you want to receive updates about the club via email?</label>
-                <input type="checkbox" name="subscribe" id="subscribe">
+                <div id="checkbox-group-container">
+                    <label for="subscribe">Do you want to receive updates about the club via email?</label>
+                    <div class="checkbox-container">
+                        <input type="checkbox" name="subscribe" id="subscribe">
+                    </div>
+                </div>
 
                 <button type="submit">Submit</button>
             </form>
