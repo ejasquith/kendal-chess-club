@@ -9,6 +9,8 @@
     --light-grey: #ccc;
 }
 
+/* global styles */
+
 body {
     font-family: var(--body-font);
     background-color: var(--off-white);
@@ -27,6 +29,8 @@ a, a:hover {
     /* for mobile-first: will display as if no flexbox */
     flex-direction: column;
 }
+
+/* header and nav */
 
 header {
     width: 100%;
@@ -137,6 +141,8 @@ nav {
     display: none;
 }
 
+/* main-content */
+
 main {
     width: 80%;
     margin: 0 auto;
@@ -213,6 +219,7 @@ footer {
     }
 }
 
+/* media query for medium-large screens */
 @media screen and (min-width: 1100px)
 {
     .flex-container {
@@ -230,6 +237,7 @@ footer {
     }
 }
 
+/* media query for large-xl screens */
 @media screen and (min-width: 1300px)
 {
     #hero-image, #hero-image-container {
