@@ -1,81 +1,124 @@
-/* universal styles */
+:root {
+    --header-height: 75px;
+    --body-font: 'Merriweather Sans', sans-serif;
+    --heading-font: 'Merriweather', serif;
 
-* {
-    margin: 0;
-    padding: 0;
+    --off-white: #fafafa;
+    --off-black: #0e0e0e;
+    --medium-dark-grey: #2b2b2b;
+    --light-grey: #ccc;
 }
 
 body {
-    background-color: #fafafa;
-    color: #0e0e0e;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: var(--body-font);
+    background-color: var(--off-white);
 }
 
-h1, h2 {
-    font-family: 'Merriweather', serif;
-    /*FIX: CHANGE GOOGLE FONT IMPORT*/
-    font-weight: lighter;
+h1, h2, h3 {
+    font-family: var(--heading-font);
 }
 
-a {
+a, a:hover {
     color: inherit;
-    text-decoration: none;
 }
 
-/* header and navigation links */
+.flex-container {
+    display: flex;
+    /* for mobile-first: will display as if no flexbox */
+    flex-direction: column;
+}
 
 header {
-    padding: 0 10px;
     width: 100%;
-    height: 90px;
+    height: var(--header-height);
     position: fixed;
     top: 0;
-    background-color: #fafafa;
+    background-color: var(--off-white);
+    padding: 0 20px;
+    border-bottom: 1px solid var(--light-grey);
     z-index: 1;
 }
 
-header h1, #menu {
-    line-height: 90px;
-}
-
 header h1 {
+    line-height: var(--header-height);
     float: left;
-    font-size: 250%;
 }
 
-#menu {
+nav {
+    height: 100%;
     float: right;
-    list-style: none;
-    font-size: 130%;
+}
+.navbar {
+    padding: 0;
 }
 
-#menu li {
-    display: inline;
-    list-style: none;
-    margin-right: 30px;
+.nbs-nav-link {
+    text-decoration: none;
 }
 
-#menu a:hover, .active {
-    border-bottom: 1px solid #0e0e0e;
+.navbar-toggler {
+    font-size: 200%;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#nav-menu {
+    display: none;
+}
+
+#collapse-menu {
+    width: 100%;
+    background-color: var(--off-black);
+    color: var(--off-white);
+    position: fixed;
+    top: var(--header-height);
+    z-index: 1;
+}
+
+#collapse-menu ul {
+    padding-left: 0;
+}
+
+#collapse-menu li {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px solid var(--medium-dark-grey);
+}
+
+#collapse-menu li:last-of-type {
+    border: none;
+}
+
+#collapse-menu li:hover {
+    background-color: var(--medium-dark-grey);
+}
+
+#collapse-menu li a {
+    /* text-decoration: none; */
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
 
 /* hero image */
 
 #hero-image-container {
     width: 100%;
-    height: 600px;
+    height: 300px;
     overflow: hidden;
-    /* pushes body content below header, since position: fixed takes it out of document flow */
-    margin-top: 90px;
+    margin-top: var(--header-height);
 }
 
 #hero-image {
     width: 100%;
-    height: 600px;
+    height: 300px;
     background: url("../images/hero-image.jpg") no-repeat center center;
     background-size: cover;
-    /* creates parallax effect */
-    background-attachment: fixed;
 }
 
 #hero-cover-text-container {
@@ -86,207 +129,22 @@ header h1 {
 }
 
 #hero-cover-text {
-    color: #fafafa;
-    font-size: 400%;
+    color: var(--off-white);
     position: absolute;
     left: 5%;
-    bottom: 10%;
+    bottom: 5%;
+    font-size: 400%;
+    display: none;
 }
-
-/* main content */
 
 main {
-    padding-top: 50px;
-    font-size: 115%;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
 }
-
-main a {
-    font-weight: bold;
-    color: #875a31;
-    transition: color 0.2s;
-}
-main a:hover {
-    color: #c48d5a;
-}
-
-/* style for left & right blocks of text */
-
-.left-paragraph {
-    width: 40%;
-    float: left;
-    margin: 0 2.5% 0 5%;
-}
-
-.right-paragraph {
-    width: 40%;
-    float: right;
-    margin: 0 5% 0 2.5%;
-}
-
-.left-paragraph h2, .right-paragraph h2 {
-    margin-bottom: 10px;
-}
-
-/* bottom image */
 
 #bottom-image {
-    clear: both;
-    width: 750px;
-    margin: 0 auto;
-    padding-top: 100px;
-}
-
-#bottom-image img {
-    width: 100%;
-}
-
-/* news page */
-
-/* article previews */
-
-.news-preview {
-    width: 60%;
-    height: 300px;
-    margin: 0 auto 50px auto;
-    border: 1px solid #0e0e0e;
-}
-
-.news-preview a {
-    display: grid;
-    grid-template-rows: 2fr 4fr 1fr;
-    grid-template-columns: 300px 1fr;
-    align-items: center;
-}
-
-.news-preview img {
-    grid-row: 1 / 4;
-    grid-column: 1 / 2;
-    /* enforces square image without stretching 
-       is there a way to have height: 100% and width = height?
-       apparently but its confusing - will figure out later */
-    object-fit: cover;
-    height: 300px;
-    width: 300px;
-}
-
-.news-preview-info {
-    padding: 0 20px;
-}
-
-/* article page */
-
-.news-article {
-    padding: 0 30px 30px 0;
-    margin: 0 auto;
-    width: 60%;
-}
-
-.news-article h2 {
-    padding-bottom: 30px;
-    font-size: 175%;
-}
-
-.video {
-    display: block;
-    padding: 30px 30px 0 30px;
-    margin: 0 auto;
-    border: none;
-}
-
-/* contact page */
-
-#contact-form-container {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#contact-form {
-    /* enforces width to match contents */
-    display: inline-block;
-    padding: 0 20px;
-    text-align: left;
-}
-
-#contact-form h2 {
-    font-size: 175%;
-}
-
-#contact-form h2, #contact-form input, #contact-form textarea {
-    margin: 10px 0;
-}
-
-.input {
-    border: 1px solid #0e0e0e;
-    border-radius: 4px;
-    display: block;
-    font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    padding: 10px;
-    width: 100%;
-}
-
-.short-text-input {
-    height: 25px;
-}
-
-#contact-form textarea {
-    display: block;
-    resize: none;
-}
-
-#contact-form input[type="checkbox"] {
-    margin-left: 10px;
-}
-
-#contact-form button {
-    width: 100px;
-    height: 50px;
-    display: block;
-    margin: 10px auto 0 auto;
-
-    background-color: #875a31;
-    color: #fafafa;
-    font-family: inherit;
-    font-size: inherit;
-    border: 1px solid #0e0e0e;
-    border-radius: 4px;
-
-    transition: color 0.2s, background-color 0.2s;
-    cursor: pointer;
-}
-
-#contact-form button:hover {
-    color: #0e0e0e;
-    background-color: #c48d5a;
-}
-
-/* form feedback page */
-
-#feedback-message {
-    width: 50%;
-    margin: 0 auto;
-}
-
-#feedback-message h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 175%;
-}
-
-/* find us page */
-
-#map {
-    display: block;
-    margin: 0 auto;
-    height: 500px;
-    width: 50%;
-}
-
-#find-us-info {
-    width: 50%;
-    margin: 0 auto;
-    padding-bottom: 40px;
+    display: none;
 }
 
 /* footer */
@@ -294,18 +152,14 @@ main a:hover {
 footer {
     width: 100%;
     height: 75px;
-    line-height: 75px;
+    padding-top: 20px;
     text-align: center;
+    border-top: 1px solid var(--light-grey);
 }
 
-footer p {
-    display: inline;
-    margin-right: 50px;
+#footer-links {
+    padding: 0;
 }
-
-/* #footer-links {
-    display: inline;
-} */
 
 #footer-links li {
     display: inline;
@@ -321,4 +175,70 @@ footer p {
    used last-of-type:0 rather than first-of-type:50 for scalability - works regardless of how many links are included */
 #footer-links li:last-of-type {
     margin-right: 0;
+}
+
+/* media query for small-medium screens */
+@media screen and (min-width: 780px)
+{
+    main {
+        padding-top: 40px;
+    }
+
+    /* displays full navbar instead of hamburger */
+   .navbar-toggler {
+        display: none;
+    }
+    #nav-menu {
+        display: block;
+        float: right;
+        list-style: none;
+    }   
+    #nav-menu li {
+        display: inline;
+        list-style: none;
+        margin-right: 30px;
+        font-size: 120%;
+        line-height: var(--header-height);
+    }    
+    #nav-menu a:hover, .active {
+        border-bottom: 1px solid #0e0e0e;
+    }
+
+    #footer-links {
+        display: inline;
+    }
+    footer p {
+        display: inline;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (min-width: 1100px)
+{
+    .flex-container {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    #bottom-image {
+        display: block;
+        width: 750px;
+        margin: 30px auto;
+    }    
+    #bottom-image img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1300px)
+{
+    #hero-image, #hero-image-container {
+        height: 600px;
+    }
+    #hero-image {
+        background-attachment: fixed;
+    }
+    #hero-cover-text {
+        display: block;
+    }
 }
