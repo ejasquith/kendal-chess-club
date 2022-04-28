@@ -47,6 +47,10 @@ a, a:hover {
     flex-direction: column;
 }
 
+.grid-container {
+    display: grid;
+}
+
 /* header and nav */
 
 header {
@@ -161,7 +165,7 @@ nav {
 /* main-content */
 
 main {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding-top: 20px;
 }
@@ -254,32 +258,32 @@ main {
 /* article previews */
 
 .news-preview {
-    width: 60%;
+    width: 100%;
     height: 300px;
-    margin: 0 auto 50px auto;
-    border: 1px solid #0e0e0e;
-}
-
-.news-preview a {
-    display: grid;
-    grid-template-rows: 2fr 4fr 1fr;
-    grid-template-columns: 300px 1fr;
+    margin-bottom: 50px;
+    border: 1px solid var(--medium-dark-grey);
+    grid-template-rows: 1fr 2fr;
     align-items: center;
 }
 
-.news-preview img {
-    grid-row: 1 / 4;
-    grid-column: 1 / 2;
-    /* enforces square image without stretching 
-       is there a way to have height: 100% and width = height?
-       apparently but its confusing - will figure out later */
-    object-fit: cover;
-    height: 300px;
-    width: 300px;
+.news-preview > * {
+    padding: 10px;
 }
 
+.news-preview-link, .news-preview-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.news-preview-title {
+    margin: 0;
+    grid-row: 1;
+}
 .news-preview-info {
-    padding: 0 20px;
+    grid-row: 2;
+}
+.news-preview-img {
+    display: none;
 }
 
 /* footer */
@@ -352,6 +356,20 @@ footer {
     /* updates for new footer height */
     main {
         min-height: calc(100vh - var(--header-height) - var(--hero-height) - var(--footer-height-s));
+    }
+
+    /* article previews */
+    .news-preview-img {
+        display: block;
+        grid-row: 1 / 3;
+        grid-column: 1 / 2;
+        /* enforces square image without stretching 
+        is there a way to have height: 100% and width = height?
+        apparently but its confusing - will figure out later */
+        object-fit: cover;
+        height: 300px;
+        width: 300px;
+        padding: 0;
     }
 }
 
