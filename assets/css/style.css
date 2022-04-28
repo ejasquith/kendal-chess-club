@@ -321,6 +321,9 @@ footer {
 {
     main {
         padding-top: 40px;
+        width: 85%;
+        /* updates for new footer height */
+        min-height: calc(100vh - var(--header-height) - var(--hero-height) - var(--footer-height-s));
     }
 
     /* displays full navbar instead of hamburger */
@@ -353,11 +356,7 @@ footer {
         display: inline;
         margin-right: 50px;
     }
-    /* updates for new footer height */
-    main {
-        min-height: calc(100vh - var(--header-height) - var(--hero-height) - var(--footer-height-s));
-    }
-
+    
     /* article previews */
     .news-preview-img {
         display: block;
@@ -376,6 +375,10 @@ footer {
 /* media query for medium-large screens */
 @media screen and (min-width: 1100px)
 {
+    main {
+        width: 70%;
+    }
+
     .flex-container {
         flex-direction: row;
         gap: 40px;
