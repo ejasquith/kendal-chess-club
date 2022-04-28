@@ -236,7 +236,7 @@ main {
 
 footer {
     width: 100%;
-    height: 75px;
+    height: 125px;
     padding-top: 20px;
     text-align: center;
     border-top: 1px solid var(--light-grey);
@@ -289,6 +289,9 @@ footer {
         border-bottom: 1px solid #0e0e0e;
     }
 
+    footer {
+        height: 75px;
+    }
     #footer-links {
         display: inline;
     }
