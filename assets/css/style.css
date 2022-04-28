@@ -117,7 +117,7 @@ nav {
     list-style: none;
     text-align: center;
     border-bottom: 1px solid var(--medium-dark-grey);
-    transition: color 0.2s background-color 0.2s;
+    transition: all 0.2s;
 }
 
 #collapse-menu li:hover {
