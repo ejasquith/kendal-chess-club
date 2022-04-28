@@ -29,6 +29,12 @@ h1, h2, h3 {
 a, a:hover {
     color: inherit;
 }
+:where(main, footer) a {
+    transition: color 0.2s;
+}
+:where(main, footer) a:hover {
+    color: var(--light-grey);
+}
 
 .flex-container {
     display: flex;
