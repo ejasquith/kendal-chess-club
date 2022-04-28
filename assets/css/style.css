@@ -1,7 +1,9 @@
 :root {
     --header-height: 75px;
     --hero-height: 300px;
+    --hero-height-xl: 600px;
     --footer-height: 125px;
+    --footer-height-s: 75px;
 
     --body-font: 'Merriweather Sans', sans-serif;
     --heading-font: 'Merriweather', serif;
@@ -305,7 +307,7 @@ footer {
     }
 
     footer {
-        height: calc(var(--footer-height) - 50px);
+        height: var(--footer-height-s);
     }
     #footer-links {
         display: inline;
@@ -316,7 +318,7 @@ footer {
     }
     /* updates for new footer height */
     main {
-        min-height: calc(100vh - var(--header-height) - var(--hero-height) - calc(var(--footer-height) - 50px));
+        min-height: calc(100vh - var(--header-height) - var(--hero-height) - var(--footer-height-s));
     }
 }
 
@@ -342,7 +344,7 @@ footer {
 @media screen and (min-width: 1300px)
 {
     #hero-image, #hero-image-container {
-        height: calc(var(--hero-height) * 2);
+        height: var(--hero-height-xl);
     }
     #hero-image {
         background-attachment: fixed;
@@ -352,6 +354,6 @@ footer {
     }
     /* updates for new hero height */
     main {
-        min-height: calc(100vh - var(--header-height) - calc(var(--hero-height) * 2) - calc(var(--footer-height) - 50px));
+        min-height: calc(100vh - var(--header-height) - var(--hero-height-xl) - var(--footer-height-s));
     }
 }
