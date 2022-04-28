@@ -196,26 +196,24 @@ main {
 }
 
 #checkbox-group-container label {
-    width: 65%;
-    display: inline-block;
-    /* float: left; */
+    width: 70%;
+    float: left;
 }
-/* #contact-form input[type="checkbox"] {
-    margin: 0 auto;
-} */
-#checkbox-container {
-    /* float: right; */
-    width: 25%;
-    display: inline-block;
+
+.checkbox-container {
+    float: right;
+    width: 30%;
+    text-align: center;
 }
 
 #contact-form button {
+    clear: both;
+    
     width: 100px;
     height: 50px;
     display: block;
     margin: 10px auto 0 auto;
 
-    
     color: var(--off-white);
     background-color: var(--off-black);
     font-family: inherit;
