@@ -249,6 +249,39 @@ main {
     color: var(--off-black);
 }
 
+/* news page */
+
+/* article previews */
+
+.news-preview {
+    width: 60%;
+    height: 300px;
+    margin: 0 auto 50px auto;
+    border: 1px solid #0e0e0e;
+}
+
+.news-preview a {
+    display: grid;
+    grid-template-rows: 2fr 4fr 1fr;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+}
+
+.news-preview img {
+    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+    /* enforces square image without stretching 
+       is there a way to have height: 100% and width = height?
+       apparently but its confusing - will figure out later */
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.news-preview-info {
+    padding: 0 20px;
+}
+
 /* footer */
 
 footer {
