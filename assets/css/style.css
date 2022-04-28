@@ -360,6 +360,17 @@ footer {
     margin-right: 0;
 }
 
+/* media query for extra small screens */
+@media screen and (max-width: 340px)
+{
+    h1 {
+        font-size: 140%;
+    }
+    .navbar-toggler {
+        font-size: 160%;
+    }
+}
+
 /* media query for small-medium screens */
 @media screen and (min-width: 780px)
 {
