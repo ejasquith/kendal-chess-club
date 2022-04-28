@@ -6,6 +6,8 @@ The chess community in Cumbria and the South Lakes is thriving, but poorly desig
 Especially given the massive uptick in interest in and popularity of chess since the pandemic and the release of The Queen's Gambit on Netflix, local clubs need to be keeping up with current UX and web design principles to attract members, especially of a younger generation.  
 This site aims to introduce prospective members to the Kendal Chess Club, offering information about meetings, venues, and contact details, as well as providing relevant information to current members, such as news and events.
 
+![Screenshot of the site on ami.responsivedesign.is](docs/images/screenshots/am-i-responsive-screenshot.png)
+
 # Table of Contents
 
 [to implement]
