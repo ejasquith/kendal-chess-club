@@ -90,6 +90,11 @@ Headings will use the Merriweather font, while paragraph text will use Merriweat
 
 - After many hours of research, I decided to scrap the idea of a dedicated "about us" page. A lot of the history of the club is unfortunately completely lost, and there simply wasn't enough information to fill a whole page - instead, I expanded on the about section on the home page slightly.
 
+- I largely followed my wireframe diagrams, with a few small changes.
+    - I decided to implement a hamburger menu on small screens to save screen real estate.
+    - I removed the logo from the header, because I couldn't find an appropriate image to use and don't have the skills to create one myself.
+        - For a future release, I may have a logo custom-made.
+
 ## Libraries
 
 - The only external library used in this project was [Bootstrap](https://getbootstrap.com/), which I used only to create a dropdown hamburger nav menu, which was impossible to do using only HTML and CSS.
