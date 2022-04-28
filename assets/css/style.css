@@ -11,6 +11,12 @@
 
 /* global styles */
 
+/* forces main to take full height of viewport minus header, hero image and footer
+   makes footer stay at bottom of page regardless of content height */
+main {
+    min-height: calc(100vh - var(--header-height) - 300px - 125px);
+}
+
 body {
     font-family: var(--body-font);
     background-color: var(--off-white);
@@ -299,6 +305,10 @@ footer {
         display: inline;
         margin-right: 50px;
     }
+    /* updates for new footer height */
+    main {
+        min-height: calc(100vh - var(--header-height) - 300px - 75px);
+    }
 }
 
 /* media query for medium-large screens */
@@ -330,5 +340,9 @@ footer {
     }
     #hero-cover-text {
         display: block;
+    }
+    /* updates for new hero height */
+    main {
+        min-height: calc(100vh - var(--header-height) - 600px - 75px);
     }
 }
