@@ -1,5 +1,8 @@
 :root {
     --header-height: 75px;
+    --hero-height: 300px;
+    --footer-height: 125px;
+
     --body-font: 'Merriweather Sans', sans-serif;
     --heading-font: 'Merriweather', serif;
 
@@ -14,7 +17,7 @@
 /* forces main to take full height of viewport minus header, hero image and footer
    makes footer stay at bottom of page regardless of content height */
 main {
-    min-height: calc(100vh - var(--header-height) - 300px - 125px);
+    min-height: calc(100vh - var(--header-height) - var(--hero-height) - var(--footer-height));
 }
 
 body {
@@ -125,14 +128,14 @@ nav {
 
 #hero-image-container {
     width: 100%;
-    height: 300px;
+    height: var(--hero-height);
     overflow: hidden;
     margin-top: var(--header-height);
 }
 
 #hero-image {
     width: 100%;
-    height: 300px;
+    height: var(--hero-height);
     background: url("../images/hero-image.jpg") no-repeat center center;
     background-size: cover;
 }
@@ -248,7 +251,7 @@ main {
 
 footer {
     width: 100%;
-    height: 125px;
+    height: var(--footer-height);
     padding-top: 20px;
     text-align: center;
     border-top: 1px solid var(--light-grey);
@@ -302,7 +305,7 @@ footer {
     }
 
     footer {
-        height: 75px;
+        height: calc(var(--footer-height) - 50px);
     }
     #footer-links {
         display: inline;
@@ -313,7 +316,7 @@ footer {
     }
     /* updates for new footer height */
     main {
-        min-height: calc(100vh - var(--header-height) - 300px - 75px);
+        min-height: calc(100vh - var(--header-height) - var(--hero-height) - calc(var(--footer-height) - 50px));
     }
 }
 
@@ -339,7 +342,7 @@ footer {
 @media screen and (min-width: 1300px)
 {
     #hero-image, #hero-image-container {
-        height: 600px;
+        height: calc(var(--hero-height) * 2);
     }
     #hero-image {
         background-attachment: fixed;
@@ -349,6 +352,6 @@ footer {
     }
     /* updates for new hero height */
     main {
-        min-height: calc(100vh - var(--header-height) - 600px - 75px);
+        min-height: calc(100vh - var(--header-height) - calc(var(--hero-height) * 2) - calc(var(--footer-height) - 50px));
     }
 }
