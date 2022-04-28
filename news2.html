@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--meta data-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description" content="Based in the historic market town of Kendal, Cumbria, this is a friendly and welcoming chess club for all players.">
 
-    <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
 
-    <!--bootstrap and custom css-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
 
     <!--favicon links-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
@@ -27,41 +23,47 @@
 </head>
 <body>
     <header>
-        <h1><a class="nbs-nav-link" href="index.html">Kendal Chess Club</a></h1>
-
-        <nav class="navbar">
-            <div id="nav-menu">
-                <ul>
-                    <li><a class="nbs-nav-link" href="index.html">Home</a></li>
-                    <li><a class="nbs-nav-link active" href="news.html">News</a></li>
-                    <li><a class="nbs-nav-link" href="contact.html">Contact</a></li>
-                    <li><a class="nbs-nav-link" href="find-us.html">Find Us</a></li>
-                </ul>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-menu" aria-controls="collapse-menu" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
+        <a href="index.html"><h1><i class="fa-solid fa-chess-pawn"></i> Kendal Chess Club</h1></a>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html" class="active">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="find-us.html">Find Us</a></li>
+            </ul>
         </nav>
     </header>
-    
-    <div class="collapse" id="collapse-menu">
-        <ul>
-            <li><a class="nbs-nav-link" href="index.html">Home</a></li>
-            <li><a class="nbs-nav-link" href="news.html">News</a></li>
-            <li><a class="nbs-nav-link" href="contact.html">Contact</a></li>
-            <li><a class="nbs-nav-link" href="find-us.html">Find Us</a></li>
-        </ul>
-    </div>
 
     <section id="hero-image-container">
         <div id="hero-image">
             <div id="hero-cover-text-container">
-                <h2 id="hero-cover-text">Contact Us</h2>
+                <h2 id="hero-cover-text">News</h2>
             </div>
         </div>
     </section>
 
     <main>
+        <article class="news-preview">
+            <a href="article-2.html">
+                <img src="assets/images/man-holding-chess-piece.webp" alt="A man holding a chess piece">
+                <h2 class="news-preview-info">Emily Goes Undefeated to Win the Club All Play All</h2>
+                <p class="news-preview-info">
+                    Emily Asquith, newcomer to the club this season, has stormed through the competition and gone undefeated in our annual All Play All Tournament with 5 points.
+                </p>
+                <p class="news-preview-info">14/04/2022</p>
+            </a>
+        </article>
+
+        <article class="news-preview">
+            <a href="article-1.html">
+                <img src="assets/images/magnus-carlsen.jpg" alt="Magnus Carlsen studying a chess board">
+                <h2 class="news-preview-info">Carlsen Dominates at World Chess Championship</h2>
+                <p class="news-preview-info">
+                    After just 11 games, Magnus Carlsen once again takes home the World Champion title, soundly downing Ian Nepomniachtchi 7.5-3.5
+                </p>
+                <p class="news-preview-info">10/12/2021</p>
+            </a>
+        </article>
     </main>
 
     <footer>
@@ -75,7 +77,5 @@
 
     <!--fontawesome script-->
     <script src="https://kit.fontawesome.com/62dcaffcba.js" crossorigin="anonymous"></script>
-    <!--bootstrap script-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
