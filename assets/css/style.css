@@ -195,14 +195,17 @@ main {
     resize: none;
 }
 
+/* allows margin-top to work on button with clear: both */
+#checkbox-group-container {
+    overflow: hidden;
+}
 #checkbox-group-container label {
-    width: 70%;
+    width: 75%;
     float: left;
 }
-
 .checkbox-container {
     float: right;
-    width: 30%;
+    width: 25%;
     text-align: center;
 }
 
@@ -224,7 +227,6 @@ main {
     transition: color 0.2s, background-color 0.2s;
     cursor: pointer;
 }
-
 #contact-form button:hover {
     background-color: var(--off-white);
     color: var(--off-black);
