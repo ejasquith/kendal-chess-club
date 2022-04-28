@@ -307,6 +307,25 @@ main {
     aspect-ratio: 16/9;
 }
 
+/* find us page */
+
+#map {
+    display: block;
+    margin: 0 auto 50px auto;
+    width: 100%;
+    aspect-ratio: 16/9;
+    
+}
+
+#find-us-info {
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+address p {
+    margin-bottom: 0;
+}
+
 /* footer */
 
 footer {
