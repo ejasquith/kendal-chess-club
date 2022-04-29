@@ -1,8 +1,8 @@
 :root {
     --header-height: 75px;
-    --hero-height-xs: 200px;
+    --hero-height-s: 200px;
     --hero-height: 300px;
-    --hero-height-xl: 450px;
+    --hero-height-l: 450px;
     --footer-height: 125px;
     --footer-height-s: 75px;
 
@@ -20,7 +20,7 @@
 /* forces main to take full height of viewport minus header, hero image and footer
    makes footer stay at bottom of page regardless of content height */
 main {
-    min-height: calc(100vh - var(--header-height) - var(--hero-height-xs) - var(--footer-height));
+    min-height: calc(100vh - var(--header-height) - var(--hero-height-s) - var(--footer-height));
 }
 
 body {
@@ -140,14 +140,14 @@ nav {
 
 #hero-image-container {
     width: 100%;
-    height: var(--hero-height-xs);
+    height: var(--hero-height-s);
     overflow: hidden;
     margin-top: var(--header-height);
 }
 
 #hero-image {
     width: 100%;
-    height: var(--hero-height-xs);
+    height: var(--hero-height-s);
     background: url("../images/hero-image.jpg") no-repeat center center;
     background-size: cover;
 }
@@ -459,7 +459,7 @@ footer {
 @media screen and (min-width: 1300px)
 {
     #hero-image, #hero-image-container {
-        height: var(--hero-height-xl);
+        height: var(--hero-height-l);
     }
     #hero-image {
         background-attachment: fixed;
@@ -469,7 +469,7 @@ footer {
     }
     /* updates for new hero height */
     main {
-        min-height: calc(100vh - var(--header-height) - var(--hero-height-xl) - var(--footer-height-s));
+        min-height: calc(100vh - var(--header-height) - var(--hero-height-l) - var(--footer-height-s));
     }
 
     .page-heading {
