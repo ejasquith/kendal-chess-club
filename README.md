@@ -73,7 +73,7 @@ In order to organise my thoughts and provide a basic design scheme to work with,
 
 ## Colour Palette
 
-For the colour palette of my site, I decided to stick with white, black, and greys for a modern, minimalist feel, while relying on hero images to provide a pop of colour. To lessen the harshness of the palette, I used the off-white #FAFAFA and the off-black #0E0E0E.  
+For the colour palette of my site, I decided to stick with white, black, and greys for a modern, minimalist feel (which also reflects the obvious white/black theme of chess), while relying on hero images to provide a pop of colour. To lessen the harshness of the palette, I used the off-white #FAFAFA and the off-black #0E0E0E.  
 I then ran these colours through [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FAFAFA%0D%0A%23CCCCCC%0D%0A%232B2B2B%0D%0A%230E0E0E&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) to ensure that the site has sufficient contrast for accessibility.
 
 ![A colour palette consisting of white, black, and greys](docs/images/colour-palette.png)
