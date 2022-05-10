@@ -108,4 +108,4 @@ Headings will use the Merriweather font, while paragraph text will use Merriweat
 - Colour palette generated with [Coolors](https://coolors.co/?home)
 - Fonts sourced from [Google Fonts](https://fonts.google.com/)
 - Icons from [Font Awesome](https://fontawesome.com/)
-- Special thanks to Jonathan, Hana, and Tim for agreeing to be interviewed.
+- Special thanks to Jonathan and Hana for agreeing to be interviewed.
