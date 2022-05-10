@@ -27,30 +27,6 @@ Jonathan Rashleigh is the owner of the club's current site and team captain for 
 > We perhaps need to encourage use of a blog or a better use of the nascent Facebook page which has not yet been developed effectively to supplement the website content.
 The demographic for potential site users is potentially very wide anyone aged between 10 and 100 with no restrictions imposed by age, gender, ethnicity, disability etc.  The more we can move the demographic away from the current preponderance of aging Anglo-Saxon white males the better - although we of course want to encourage them as well  and we have to accept the demographic reality of the overall Cumbrian population. We do not want to attract younger children unless and until we acquire new adult members who are prepared to put considerable effort into encouraging junior chess and providing a proper framework for doing that.
 
-## Interviewee 2: Fleoren, end user
-
-Fleoren is an active chess player who recently was looking for a chess club to join in Mexico City. As such, I interviewed her to understand what current players using the site to find a new club may be looking for and what content would be important to them.
-
-### When looking for a chess club to join, what is the most important thing you want to see on its website?
-
-> [answer]
-
-### What other features or content would you find helpful?
-
-> [answer]
-
-### Do you take the visual design of the website into consideration when researching a club? Would you be more inclined to join a club that had a more modern or stylishly designed site?
-
-> [answer]
-
-### When looking for clubs in the past, what if anything frustrated you during the process? 
-
-> [answer]
-
-### From your experience, do you have any examples of club websites you found to be either exceptionally helpful or unhelpful?
-
-> [answer]
-
 ## Interviewee 3: Hana Cheney, end user
 
 Hana does not play chess but has expressed interest in taking up the game in the past. Therefore, I interviewed her to understand what would be important to someone new to chess looking for a place to learn and play with others.
