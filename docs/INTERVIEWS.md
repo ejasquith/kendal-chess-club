@@ -1,6 +1,6 @@
 # Stakeholder Interviews
 
-During the planning stage of the project, I thought it would be wise to get some insight from real people who would be a potential part of the site's audience, rather than projecting my own ideas of what users may require from the site. The results of these are detailed below (all answers shown as written).
+During the planning stage of the project, I thought it would be wise to get some insight from real people who would be a potential part of the site's audience, rather than projecting my own ideas of what users may require from the site. The results of these are detailed below.
 
 ## Interviewee 1: Jonathan Rashleigh, client
 
@@ -46,19 +46,3 @@ Hana does not play chess but has expressed interest in taking up the game in the
 ### Would you take the visual design of the site into consideration? Barring any other factors, would you be more inclined to join a group with a more modern or stylishly designed site?
 
 > I would definitely take the website design into consideration. Something with a softer design that borders modern would be more inviting to me as a beginner. Something stylish would be nice, but it runs the possibility of being loud if that makes sense??? If there is a balance, that would be great.  
-
-## Interviewee 4: Tim Lounds, end user
-
-Tim is an active member of the Kendal Chess Club, attending weekly as well as representing the club in county tournaments. I interviewed him to get an idea of what a member would expect from a club they are a part of, and what features would be important in that context.
-
-### As an active member of the club, do you use the club's current website?
-
-> [answer]
-
-### What features, content, or information do/would you find helpful as a member?
-
-> [answer]
-
-### Would you rather keep up with general chess world news through your club's site or other more established sources?
-
-> [answer]
