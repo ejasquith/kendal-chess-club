@@ -12,6 +12,7 @@
     --off-white: #fafafa;
     --off-black: #0e0e0e;
     --medium-dark-grey: #2b2b2b;
+    --medium-grey: #5e5e5e;
     --light-grey: #ccc;
 }
 
@@ -39,7 +40,7 @@ a, a:hover {
     transition: color 0.2s;
 }
 :where(main, footer) a:hover {
-    color: var(--light-grey);
+    color: var(--medium-grey);
 }
 
 .flex-container {
