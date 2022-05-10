@@ -98,6 +98,7 @@ Headings will use the Merriweather font, while paragraph text will use Merriweat
 ## Libraries
 
 - The only external library used in this project was [Bootstrap](https://getbootstrap.com/), which I used only to create a dropdown hamburger nav menu, which was impossible to do using only HTML and CSS.
+    - Bootstrap also included some basic global styling rules, such as line breaks between \<p> tags.
 
 # Credits
 
