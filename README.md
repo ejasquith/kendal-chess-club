@@ -100,6 +100,21 @@ Headings will use the Merriweather font, while paragraph text will use Merriweat
 - The only external library used in this project was [Bootstrap](https://getbootstrap.com/), which I used only to create a dropdown hamburger nav menu, which was impossible to do using only HTML and CSS.
     - Bootstrap also included some basic global styling rules, such as line breaks between \<p> tags.
 
+# Site Features
+
+## Features Common to All Pages
+
+### Header & Navigation
+
+I implemented a sticky header that would remain consistent over all pages. It has 2 styles depending on screen size.  
+
+On large screens, it displays a list of navigation links.  
+![Header on large screens](docs/images/screenshots/header-l.png)
+
+On smaller screens, the navigation collapses into a hamburger menu to save screen space.  
+![Header on small screens with expanded hamburger menu](docs/images/screenshots/header-hamburger.png)
+
+
 # Credits
 
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
