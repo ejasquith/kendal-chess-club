@@ -77,7 +77,7 @@ For the colour palette of my site, I decided to stick with white, black, and gre
 I then ran these colours through [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FAFAFA%0D%0A%23CCCCCC%0D%0A%232B2B2B%0D%0A%230E0E0E&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) to ensure that the site has sufficient contrast for accessibility.
 
 ![A colour palette consisting of white, black, and greys](docs/images/colour-palette.png)
-![A grid showing the contrast between the above colours](docs/images/colour-contrast.png)
+![A grid showing the contrast between the above colours](docs/images/contrast-grid.png)
 
 ## Fonts
 
