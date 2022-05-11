@@ -102,9 +102,7 @@ Headings will use the Merriweather font, while paragraph text will use Merriweat
 
 # Site Features
 
-## Features Common to All Pages
-
-### Header & Navigation
+## Header & Navigation
 
 I implemented a sticky header that would remain consistent over all pages. It has 2 styles depending on screen size.  
 
@@ -113,6 +111,14 @@ On large screens, it displays a list of navigation links.
 
 On smaller screens, the navigation collapses into a hamburger menu to save screen space.  
 ![Header on small screens with expanded hamburger menu](docs/images/screenshots/header-hamburger.png)
+
+## Hero Image
+
+Each page has a hero image that adds visual interest and a pop of colour to the otherwise monotone design. I decided to keep the image the same across all pages to maintain consistency.  
+
+![Hero image used on the website](assets/images/hero-image.jpg)
+
+A transparency-gradated black overlay is applied to the image so that the white cover text displayed on larger screen sizes can be easily read, and the image position is changed to fixed on large screens for added interest.  
 
 
 # Credits
