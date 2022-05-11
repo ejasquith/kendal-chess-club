@@ -128,6 +128,8 @@ Each page has a footer with copyright information, a link to the club's Facebook
 
 ![Footer on larger screens](docs/images/screenshots//footer-desktop.png)
 
+# Credits
+
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
     - [https://saintlouischessclub.org/](https://saintlouischessclub.org/) 
     - [https://www.glcc.org.uk/](https://www.glcc.org.uk/)
