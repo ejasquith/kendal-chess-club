@@ -120,8 +120,13 @@ Each page has a hero image that adds visual interest and a pop of colour to the 
 
 A transparency-gradated black overlay is applied to the image so that the white cover text displayed on larger screen sizes can be easily read, and the image position is changed to fixed on large screens for added interest.  
 
+## Footer
 
-# Credits
+Each page has a footer with copyright information, a link to the club's Facebook page, a link to the contact page, and a link to my GitHub. On smaller screens, the information stacks on top of each other while on larger screens it is on the same line.  
+
+![Footer on small screens](docs/images/screenshots/footer-mobile.png)
+
+![Footer on larger screens](docs/images/screenshots//footer-desktop.png)
 
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
     - [https://saintlouischessclub.org/](https://saintlouischessclub.org/) 
