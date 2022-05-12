@@ -170,6 +170,16 @@ The article pages contain the body of the articles previewed on the news page. S
 
 ![A screenshot of article 2, containing the article body, title, and file download links](docs/images/screenshots/article-2.png)
 
+## Contact Page
+
+The contact page includes a form for users to fill in personal details, add a message, and subscribe to the club's newsletter. The form doesn't function, instead sending a GET request to a feedback page to simulate the functionality.  
+
+The form has input validation, with name and email address being required, and enforcing the email field being in the correct format.  
+
+![A screenshot of the contact form](docs/images/screenshots/contact-form.png)
+
+![A screenshot of the form feedback page, with form responses in the URL highlighted](docs/images/screenshots/feedback-page.png)
+
 # Credits
 
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
