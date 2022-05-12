@@ -180,6 +180,12 @@ The form has input validation, with name and email address being required, and e
 
 ![A screenshot of the form feedback page, with form responses in the URL highlighted](docs/images/screenshots/feedback-page.png)
 
+## Find Us Page
+
+The Find Us page contains details of the club venue's address and reiterates meeting times, as well as displaying an embedded Google Maps frame.
+
+![A screenshot of the Find Us page, showing the address details and Google Map](docs/images/screenshots/find-us-full.png)
+
 # Credits
 
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
