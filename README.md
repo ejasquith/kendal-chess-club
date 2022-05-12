@@ -144,6 +144,10 @@ As the hero image cover text is only displayed on large screens, some pages have
 
 There are cases where this wasn't necessary - for example, the home page already includes section headings and the contact page displays "Get in Touch!" whether the cover text is displayed or not.  
 
+![The Find Us page on mobile, with page heading displayed](docs/images/screenshots/find-us-mobile.png)
+
+![The Find Us page on desktop, with cover text and no page heading](docs/images/screenshots/find-us-desktop.png)
+
 # Credits
 
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
