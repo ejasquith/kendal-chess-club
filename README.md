@@ -126,9 +126,15 @@ A transparency-gradated black overlay is applied to the image so that the white 
 
 Each page has a footer with copyright information, a link to the club's Facebook page, a link to the contact page, and a link to my GitHub. On smaller screens, the information stacks on top of each other while on larger screens it is on the same line.  
 
+The icons for links in the footer were taken from FontAwesome.
+
 ![Footer on small screens](docs/images/screenshots/footer-mobile.png)
 
 ![Footer on larger screens](docs/images/screenshots//footer-desktop.png)
+
+## Links
+
+To make external links clear to the user, througout the main body of content all \<a> tags are decorated with an underline and change colour slightly on hover. As links in the header are very clear, only the active page link is underlined, with an underline being added to other links on hover.
 
 # Credits
 
