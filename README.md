@@ -148,6 +148,16 @@ There are cases where this wasn't necessary - for example, the home page already
 
 ![The Find Us page on desktop, with cover text and no page heading](docs/images/screenshots/find-us-desktop.png)
 
+# Page Content
+
+## Home Page
+
+The home page contains some introductory information about the club and a little on its history, as well as information on when and where the club meets. This is the most important information a user would be looking for when visiting the website, so I ensured it was immediately accessible.  
+
+![A section of the home page, showing the About Us and Meeting Info sections](docs/images/screenshots/home-page-content.png)
+
+
+
 # Credits
 
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
