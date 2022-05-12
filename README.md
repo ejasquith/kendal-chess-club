@@ -162,6 +162,10 @@ The news page contains a list of article previews that link to full articles. Th
 
 ![A section of the news page, showing the article previews](docs/images/screenshots/news-page.png)
 
+## Article Pages
+
+The article pages contain the body of the articles previewed on the news page. Some include additional media, like an embedded YouTube video.
+
 # Credits
 
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
