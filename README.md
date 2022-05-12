@@ -140,7 +140,9 @@ To make external links clear to the user, througout the main body of content all
 
 As the hero image cover text is only displayed on large screens, some pages have a page heading with the same text, displayed only when the cover text is not visible. This ensures that regardless of screen size, the purpose of each page is clear to all users.  
 
-There are cases where this wasn't necessary - for example, the home page already includes section headings and the contact page displays "Get in Touch!" whether the cover text is displayed or not.
+There are cases where this wasn't necessary - for example, the home page already includes section headings and the contact page displays "Get in Touch!" whether the cover text is displayed or not.  
+
+![An example of a hyperlink in the page body](docs/images/screenshots/body-link.png)
 
 # Credits
 
