@@ -156,7 +156,11 @@ The home page contains some introductory information about the club and a little
 
 ![A section of the home page, showing the About Us and Meeting Info sections](docs/images/screenshots/home-page-content.png)
 
+## News Page
 
+The news page contains a list of article previews that link to full articles. The previews contain a relevant image, article title, description, and date of publication.
+
+![A section of the news page, showing the article previews](docs/images/screenshots/news-page.png)
 
 # Credits
 
