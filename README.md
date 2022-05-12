@@ -182,7 +182,9 @@ The form has input validation, with name and email address being required, and e
 
 ## Find Us Page
 
-The Find Us page contains details of the club venue's address and reiterates meeting times, as well as displaying an embedded Google Maps frame.
+The Find Us page contains details of the club venue's address and reiterates meeting times, as well as displaying an embedded Google Maps frame.  
+
+Google Maps doesn't correctly find the venue, hence the discrepancy between the given address and the address displayed by Google.  
 
 ![A screenshot of the Find Us page, showing the address details and Google Map](docs/images/screenshots/find-us-full.png)
 
