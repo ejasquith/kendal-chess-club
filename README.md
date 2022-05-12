@@ -164,7 +164,11 @@ The news page contains a list of article previews that link to full articles. Th
 
 ## Article Pages
 
-The article pages contain the body of the articles previewed on the news page. Some include additional media, like an embedded YouTube video.
+The article pages contain the body of the articles previewed on the news page. Some include additional media, like an embedded YouTube video, or links to download supplementary files.  
+
+![A screenshot of article 1, containing the article body, title, and an embedded video](docs/images/screenshots/article-1.png)
+
+![A screenshot of article 2, containing the article body, title, and file download links](docs/images/screenshots/article-2.png)
 
 # Credits
 
