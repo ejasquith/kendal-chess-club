@@ -234,6 +234,22 @@ The performance score was much lower (at around 60) before I took steps to incre
 
 I used the tool [WAVE](https://wave.webaim.org/) to further test the accessibility of the page. No errors were returned, although there was a warning saying that two adjacent \<a> tags linked to the same page and thus were redundant. This was solely because of the home link in the nav bar being next to the title in the header, which also links to the home page. I decided this wasn't important enough to justify removing either link.
 
+# Deployment
+
+The site was deployed using GitHub Pages with the following steps:
+
+1. From the repository page, click on "Settings".
+
+2. Under "Code and automation", click "Pages".
+
+3. Under "Source", select the main branch and click save.
+
+4. Tick the box labelled "Enforce HTTPS"
+
+5. I also used a custom URL. To do this, I followed the steps laid out on this page: [https://jinnabalu.medium.com/godaddy-domain-with-github-pages-62aed906d4ef](https://jinnabalu.medium.com/godaddy-domain-with-github-pages-62aed906d4ef)
+
+The published site can now be found at [https://kendalchessclub.co.uk](https://kendalchessclub.co.uk)
+
 # Credits
 
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
