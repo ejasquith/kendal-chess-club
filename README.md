@@ -246,7 +246,7 @@ The site was deployed using GitHub Pages with the following steps:
 
 4. Tick the box labelled "Enforce HTTPS"
 
-5. I also used a custom URL. To do this, I followed the steps laid out on this page: [https://jinnabalu.medium.com/godaddy-domain-with-github-pages-62aed906d4ef](https://jinnabalu.medium.com/godaddy-domain-with-github-pages-62aed906d4ef)
+5. I also used a custom domain name. To do this, I followed the steps laid out on this page: [https://jinnabalu.medium.com/godaddy-domain-with-github-pages-62aed906d4ef](https://jinnabalu.medium.com/godaddy-domain-with-github-pages-62aed906d4ef)
 
 The published site can now be found at [https://kendalchessclub.co.uk](https://kendalchessclub.co.uk)
 
