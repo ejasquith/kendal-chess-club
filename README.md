@@ -188,6 +188,12 @@ Google Maps doesn't correctly find the venue, hence the discrepancy between the 
 
 ![A screenshot of the Find Us page, showing the address details and Google Map](docs/images/screenshots/find-us-full.png)
 
+## 404 Page
+
+The 404 page is a very simple page that the user is redirected to when a given page isn't found (eg. an incorrect URL is provided). It informs the user of the error and provides a link to the homepage.
+
+![A screenshot of the 404 page](docs/images/screenshots/404.png)
+
 # Credits
 
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
