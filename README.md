@@ -190,9 +190,49 @@ Google Maps doesn't correctly find the venue, hence the discrepancy between the 
 
 ## 404 Page
 
-The 404 page is a very simple page that the user is redirected to when a given page isn't found (eg. an incorrect URL is provided). It informs the user of the error and provides a link to the homepage.
+The 404 page is a very simple page that the user is redirected to when a given page isn't found (eg. an incorrect URL is provided). It informs the user of the error and provides a link to the homepage.  
 
 ![A screenshot of the 404 page](docs/images/screenshots/404.png)
+
+# Testing
+
+The site was tested in various ways, both during and after development.  
+
+## Manual Testing
+
+At every stage during development after any new feature was implemented, I checked the site in-browser using a simulated server and used Firefox DevTools to ensure responsivity. I also checked the published site (via GitHub Pages) in case of any unexpected differences.  
+
+Once the site was completed, I again checked the published site using Firefox, as well as Chrome, Opera and Edge to ensure full cross-compatibility, using each browser's built in dev tools to simulate different screen sizes.
+
+The site was also tested using a real mobile device. Unfortunately I didn't have a tablet available to use, so had to rely on the information gathered using dev tools for medium-small screen sizes.
+
+## Code Validation
+
+HTML - [https://validator.w3.org/](https://validator.w3.org/)
+
+- Issues
+    - An error was returned stating "Element \<a> not allowed as child of element \<ul> in this context." This was because of the way I had made the navigation links' clickable area take up space.
+        - To fix this, I simply moved the \<a> tags inside the \<li> tags and manipulated the size of the \<a> elements directly.
+    
+CSS - [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+
+No issues were found when validating the CSS code.
+
+## Lighthouse
+
+I ran my pages through [https://web.dev/measure/](https://web.dev/measure/) to test their scores in a lab environment without local conditions having any impact.  
+
+All pages had a very similar score, so I've included only the score for the home page.  
+
+![Screenshot of Lighthouse scores](docs/images/screenshots/lighthouse-scores.png)
+
+The SEO score was initially 100, but as the site is not ready for public use for the chess club, I was forced to prevent search engines from indexing it using the meta tag \<meta name="robots" content="noindex">, which reduced the score to 91.
+
+The performance score was much lower (at around 60) before I took steps to increase the load speed of the site. In particular, I minified the bottom image and included the tag loading="lazy" in the HTML to reduce the time taken for the browser to load the site. Currently the biggest impact to the performance score is the links to Bootstrap and Google Fonts javascript files, which I am unable to do anything about.
+
+## WAVE
+
+I used the tool [WAVE](https://wave.webaim.org/) to further test the accessibility of the page. No errors were returned, although there was a warning saying that two adjacent \<a> tags linked to the same page and thus were redundant. This was solely because of the home link in the nav bar being next to the title in the header, which also links to the home page. I decided this wasn't important enough to justify removing either link.
 
 # Credits
 
