@@ -263,6 +263,7 @@ The published site can now be found at [https://kendalchessclub.co.uk](https://k
 
 # Credits
 
+- MDN, Stack Overflow, and W3Schools were used as general reference throughout the development of the project.
 - Screenshots in [COMPETITORS.md](docs/COMPETITORS.md) taken from: 
     - [https://saintlouischessclub.org/](https://saintlouischessclub.org/) 
     - [https://www.glcc.org.uk/](https://www.glcc.org.uk/)
@@ -270,3 +271,7 @@ The published site can now be found at [https://kendalchessclub.co.uk](https://k
 - Fonts sourced from [Google Fonts](https://fonts.google.com/)
 - Icons from [Font Awesome](https://fontawesome.com/)
 - Special thanks to Jonathan and Hana for agreeing to be interviewed.
+- Hero image by [Mitchell Johnson on Unsplash](https://unsplash.com/photos/CZRNxAIYLzI)
+- Bottom image by [RODNAE Productions on Pexels](https://www.pexels.com/photo/a-woman-playing-chess-with-a-young-girl-7104164/)
+- Article 1 preview image by [Lennart Ootes](https://commons.wikimedia.org/wiki/File:FIDE_World_FR_Chess_Championship_2019_-_Magnus_Carlsen.jpg)
+- Article 2 preview image by [Pixabay on Pexels](https://www.pexels.com/photo/battle-board-game-castle-challenge-277124/)
