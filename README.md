@@ -10,7 +10,42 @@ This site aims to introduce prospective members to the Kendal Chess Club, offeri
 
 # Table of Contents
 
-[to implement]
+- [Planning Stage](#planning-stage)
+    - [Stakeholder Interviews](#stakeholder-interviews)
+    - [Target Audiences](#target-audiences)
+    - [User Stories](#user-stories)
+    - [Site Aims](#site-aims)
+    - [How This Will Be Achieved](#how-this-will-be-achieved)
+    - [Out-of-Scope Features](#out-of-scope-features)
+    - [Wireframes](#wireframes)
+        - [Mobile Wireframes](#mobile-wireframes)
+        - [Desktop Wireframes](#desktop-wireframes)
+    - [Colour Palette](#colour-palette)
+    - [Fonts](#fonts)
+- [Development Stage](#development-stage)
+    - [Deviations from Planning](#deviations-from-planning)
+    - [Libraries](#libraries)
+- [Site Features](#site-features)
+    - [Header & Navigation](#header--navigation)
+    - [Hero Image](#hero-image)
+    - [Footer](#footer)
+    - [Links](#links)
+    - [Page Headings](#page-headings)
+- [Page Content](#page-content)
+    - [Home Page](#home-page)
+    - [News Page](#news-page)
+    - [Article Pages](#article-pages)
+    - [Contact Page](#contact-page)
+    - [Find Us Page](#find-us-page)
+    - [404 Page](#404-page)
+- [Testing](#testing)
+    - [Bugs](#bugs)
+    - [Manual Testing](#manual-testing)
+    - [Code Validation](#code-validation)
+    - [Lighthouse](#lighthouse)
+    - [WAVE](#wave)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 # Planning Stage
 
