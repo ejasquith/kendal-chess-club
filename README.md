@@ -73,6 +73,8 @@ In order to organise my thoughts and provide a basic design scheme to work with,
 ### Desktop wireframes
 ![Home Page wireframe for desktop](docs/images/wireframes/homepage-desktop.png)
 
+Most pages will follow the same basic layout as these, with just small adjustments (eg. a single centered block of text instead of 2)
+
 ## Colour Palette
 
 For the colour palette of my site, I decided to stick with white, black, and greys for a modern, minimalist feel (which also reflects the obvious white/black theme of chess), while relying on hero images to provide a pop of colour. To lessen the harshness of the palette, I used the off-white #FAFAFA and the off-black #0E0E0E.  
