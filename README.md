@@ -198,6 +198,17 @@ The 404 page is a very simple page that the user is redirected to when a given p
 
 The site was tested in various ways, both during and after development.  
 
+## Bugs
+
+As with any project, bugs were inevitable during the development of this site.
+
+- When creating the navigation menu, I used the class #nav-link on some elements. This class however is built into Bootstrap and thus had built-in styling, including making the links display as block elements, changing the colour, and adjusting the size.
+    - Once I realised the issue, I fixed this by appending "nbs-" to the class name (shorthand for non-bootstrap). The styles then behaved as expected.
+- I had an issue making the footer links center properly. Because of padding-right being applied to every element, the links would be aligned to slightly left of center.
+    - To fix this, I used the last-of-type pseudo class to remove the padding from the final link. This means that regardless of how many links are included in the footer, they will always be centered properly.
+- I found that the header was covered by the gradient applied to the hero image.
+    - This fix was very simple, just adding "z-index: 1" to the style rules of the header.
+
 ## Manual Testing
 
 At every stage during development after any new feature was implemented, I checked the site in-browser using a simulated server and used Firefox DevTools to ensure responsivity. I also checked the published site (via GitHub Pages) in case of any unexpected differences.  
