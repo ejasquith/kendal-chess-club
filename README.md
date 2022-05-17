@@ -61,6 +61,8 @@ There are a number of features that would ideally be added to the site but at pr
 
 In particular, the implementation of a blog or news feed (and an admin login to manage the feed) - this is a big part of the site owner's goals for the site, but without knowledge of backend languages and frameworks (eg. Python and Django), this is currently impossible. However, I can simulate a news feed by creating static content and pages for the purposes of this project.
 
+Additionally, I would add proper functionality to the contact form, with a POST request and results being stored in a database.
+
 ## Wireframes
 
 In order to organise my thoughts and provide a basic design scheme to work with, I created a number of wireframe diagrams.  
