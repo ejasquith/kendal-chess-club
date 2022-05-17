@@ -208,6 +208,8 @@ As with any project, bugs were inevitable during the development of this site.
     - To fix this, I used the last-of-type pseudo class to remove the padding from the final link. This means that regardless of how many links are included in the footer, they will always be centered properly.
 - I found that the header was covered by the gradient applied to the hero image.
     - This fix was very simple, just adding "z-index: 1" to the style rules of the header.
+- I struggled getting the checkbox and its label on the contact form to look good across different screen sizes, due to the label being too long to fit on one line within the bounds of the form area.
+    - I had to work around this issue by wrapping the two elements in a container div, then assigning 75% width to the label and 25% to the checkbox.
 
 ## Manual Testing
 
