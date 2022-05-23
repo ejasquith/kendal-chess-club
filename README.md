@@ -249,6 +249,8 @@ As with any project, bugs were inevitable during the development of this site.
     - This fix was very simple, just adding "z-index: 1" to the style rules of the header.
 - I struggled getting the checkbox and its label on the contact form to look good across different screen sizes, due to the label being too long to fit on one line within the bounds of the form area.
     - I had to work around this issue by wrapping the two elements in a container div, then assigning 75% width to the label and 25% to the checkbox.
+- The console was displaying an error on loading, saying that the file favicon.ico could not be found (despite the favicon functioning as expected).
+    - To fix this, I simply copied the file into the root directory of the project, as that is where the site was lookin for the file.
 
 ## Manual Testing
 
