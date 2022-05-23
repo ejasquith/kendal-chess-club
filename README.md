@@ -314,6 +314,6 @@ The published site can now be found at [https://kendalchessclub.co.uk](https://k
 - Special thanks to Jonathan and Hana for agreeing to be interviewed.
 - Hero image by [Mitchell Johnson on Unsplash](https://unsplash.com/photos/CZRNxAIYLzI)
 - Index page bottom image by [RODNAE Productions on Pexels](https://www.pexels.com/photo/a-woman-playing-chess-with-a-young-girl-7104164/)
-- Form feedback page bottom image [MART PRODUCTION on Pexels](https://www.pexels.com/photo/a-smart-boy-playing-chess-8471838/)
+- Form feedback page bottom image by [MART PRODUCTION on Pexels](https://www.pexels.com/photo/a-smart-boy-playing-chess-8471838/)
 - Article 1 preview image by [Lennart Ootes](https://commons.wikimedia.org/wiki/File:FIDE_World_FR_Chess_Championship_2019_-_Magnus_Carlsen.jpg)
 - Article 2 preview image by [Pixabay on Pexels](https://www.pexels.com/photo/battle-board-game-castle-challenge-277124/)
