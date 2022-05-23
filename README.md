@@ -251,6 +251,7 @@ As with any project, bugs were inevitable during the development of this site.
     - I had to work around this issue by wrapping the two elements in a container div, then assigning 75% width to the label and 25% to the checkbox.
 - The console was displaying an error on loading, saying that the file favicon.ico could not be found (despite the favicon functioning as expected).
     - To fix this, I simply copied the file into the root directory of the project, as that is where the site was lookin for the file.
+- While not necessarily a bug, it is worth mentioning that at some point during development I decided to restart with a blank slate, taking into account what I had learned working on the site so far (in particular, I switched to a mobile-first development mindset), making the code much cleaner and the site more optimised for mobile.
 
 ## Manual Testing
 
